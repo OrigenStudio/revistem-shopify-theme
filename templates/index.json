@@ -444,7 +444,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Gemini_Generated_Image_n8rv3rn8rv3rn8rv.png",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
