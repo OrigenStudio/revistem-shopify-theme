@@ -985,6 +985,25 @@
         "padding_bottom": 36
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Te puede interesar",
+        "heading_size": "h2",
+        "products_to_show": 2,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-6d40021f-e55e-49ec-a8a3-6a2fa5087120",
+        "image_ratio": "adapt",
+        "image_no_crop": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
     "blocks_gUg7JV": {
       "type": "_blocks",
       "blocks": {
@@ -1044,25 +1063,6 @@
       ],
       "name": "Trust badges",
       "settings": {}
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "Te puede interesar",
-        "heading_size": "h2",
-        "products_to_show": 2,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-6d40021f-e55e-49ec-a8a3-6a2fa5087120",
-        "image_ratio": "adapt",
-        "image_no_crop": false,
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_scroll_tags": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
     },
     "collapsible_content_JVrqWp": {
       "type": "collapsible-content",
