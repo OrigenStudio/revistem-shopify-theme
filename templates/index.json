@@ -620,7 +620,7 @@
         "layout": "none",
         "color_scheme": "background-2",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 52,
@@ -792,10 +792,10 @@
     "image_with_text_8ADPwa",
     "rich_text_Mki7TU",
     "lumin_hero_Pq7Gre",
+    "1774355846783fd27e",
     "collapsible_content_jdrwfj",
     "rich_text_kViQY7",
     "before_after_rmYV6L",
-    "1774355846783fd27e",
     "autoplay_video_pUjczr"
   ]
 }
