@@ -40,6 +40,7 @@
         "text_Eibi6x",
         "heading_pBE3P4"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
@@ -131,7 +132,7 @@
         "sub_heading_align_mobile": "left",
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "lumin_gallery_KMqKMA": {
