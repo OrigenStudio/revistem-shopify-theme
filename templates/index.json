@@ -176,7 +176,7 @@
         "show_vendor": false,
         "show_rating": false,
         "show_scroll_tags": false,
-        "show_product_description": false,
+        "show_product_description": true,
         "description_font_size": 14,
         "description_word_limit": 20,
         "quick_add": "standard",
