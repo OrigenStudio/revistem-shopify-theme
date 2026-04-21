@@ -230,7 +230,7 @@
           "type": "text",
           "settings": {
             "text": "<p><br/>Revistem nace de una pregunta concreta: ¿por qué la mayoría de suplementos capilares ignoran la biología real del folículo? Cada fórmula está construida desde la evidencia, con ingredientes a dosis relevantes y compatibilidad real con los tratamientos médicos habituales para la alopecia androgenética.<br/><br/></p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_UhBYJC": {
@@ -424,7 +424,7 @@
           "type": "text",
           "settings": {
             "text": "<p><br/>Revistem Hair cubre las bases nutricionales del folículo. Revistem Hair Forte añade el soporte antioxidante y sistémico más completo. Los dos están formulados para integrarse en una estrategia de salud capilar seria, solos o junto a tu protocolo médico actual.<br/><br/></p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_7WyyXU": {
