@@ -470,6 +470,61 @@
         "padding_bottom": 16
       }
     },
+    "lumin_hero_Pq7Gre": {
+      "type": "lumin-hero",
+      "blocks": {
+        "hero_8fNn4n": {
+          "type": "hero",
+          "settings": {
+            "image": "shopify://shop_images/Gray_and_Black_Minimalist_Digital_Mockup_Facebook_Post_7_337e2b0e-3d7b-4db6-ac92-4bef25d09663.png",
+            "use_video": false,
+            "main_image_width": 300,
+            "show_1": true,
+            "image_1": "shopify://shop_images/Base_capilar_solida.png",
+            "head_1": "<strong>Base capilar sólida</strong>",
+            "text_1": "Aminoácidos, minerales y activos vegetales seleccionados para dar estructura y coherencia a la fórmula.",
+            "show_2": true,
+            "image_2": "shopify://shop_images/Soporte_antioxidante.png",
+            "head_2": "<strong>Soporte antioxidante</strong>",
+            "text_2": "La fórmula incorpora compuestos orientados a reforzar el entorno oxidativo y el equilibrio celular.",
+            "show_3": true,
+            "image_3": "shopify://shop_images/Dosis_con_criterio.png",
+            "head_3": "<strong>Dosis con criterio</strong>",
+            "text_3": "Cada ingrediente está incluido por su función dentro del conjunto, no para inflar la etiqueta.",
+            "show_4": true,
+            "image_4": "shopify://shop_images/Pensado_para_complementar.png",
+            "head_4": "<strong>Pensado para complementar</strong>",
+            "text_4": "Revistem acompaña una estrategia capilar seria desde un enfoque nutricional bien planteado.",
+            "show_5": false,
+            "head_5": "Heading",
+            "text_5": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines.",
+            "show_6": false,
+            "head_6": "Heading",
+            "text_6": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines."
+          }
+        }
+      },
+      "block_order": [
+        "hero_8fNn4n"
+      ],
+      "name": "Lumin Hero",
+      "settings": {
+        "color_scheme": "",
+        "color_scheme_2": "",
+        "title": "Los pilares de la fórmula",
+        "heading_size": "h1",
+        "column_alignment": "center",
+        "column_alignment_dt": "center",
+        "column_alignment_mb": "center",
+        "head_text": "",
+        "feature_image": 120,
+        "feature_image_mb": 40,
+        "gap_section_top": 20,
+        "gap_section_bottom": 20,
+        "pad_section_top": 20,
+        "pad_section_bottom": 20
+      }
+    },
     "collapsible_content_jdrwfj": {
       "type": "collapsible-content",
       "blocks": {
@@ -570,61 +625,6 @@
         "desktop_layout": "image_second",
         "padding_top": 52,
         "padding_bottom": 64
-      }
-    },
-    "lumin_hero_Pq7Gre": {
-      "type": "lumin-hero",
-      "blocks": {
-        "hero_8fNn4n": {
-          "type": "hero",
-          "settings": {
-            "image": "shopify://shop_images/Gray_and_Black_Minimalist_Digital_Mockup_Facebook_Post_7_337e2b0e-3d7b-4db6-ac92-4bef25d09663.png",
-            "use_video": false,
-            "main_image_width": 300,
-            "show_1": true,
-            "image_1": "shopify://shop_images/Base_capilar_solida.png",
-            "head_1": "<strong>Base capilar sólida</strong>",
-            "text_1": "Aminoácidos, minerales y activos vegetales seleccionados para dar estructura y coherencia a la fórmula.",
-            "show_2": true,
-            "image_2": "shopify://shop_images/Soporte_antioxidante.png",
-            "head_2": "<strong>Soporte antioxidante</strong>",
-            "text_2": "La fórmula incorpora compuestos orientados a reforzar el entorno oxidativo y el equilibrio celular.",
-            "show_3": true,
-            "image_3": "shopify://shop_images/Dosis_con_criterio.png",
-            "head_3": "<strong>Dosis con criterio</strong>",
-            "text_3": "Cada ingrediente está incluido por su función dentro del conjunto, no para inflar la etiqueta.",
-            "show_4": true,
-            "image_4": "shopify://shop_images/Pensado_para_complementar.png",
-            "head_4": "<strong>Pensado para complementar</strong>",
-            "text_4": "Revistem acompaña una estrategia capilar seria desde un enfoque nutricional bien planteado.",
-            "show_5": false,
-            "head_5": "Heading",
-            "text_5": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines.",
-            "show_6": false,
-            "head_6": "Heading",
-            "text_6": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines."
-          }
-        }
-      },
-      "block_order": [
-        "hero_8fNn4n"
-      ],
-      "name": "Lumin Hero",
-      "settings": {
-        "color_scheme": "",
-        "color_scheme_2": "",
-        "title": "Los pilares de la fórmula",
-        "heading_size": "h1",
-        "column_alignment": "center",
-        "column_alignment_dt": "center",
-        "column_alignment_mb": "center",
-        "head_text": "",
-        "feature_image": 120,
-        "feature_image_mb": 40,
-        "gap_section_top": 20,
-        "gap_section_bottom": 20,
-        "pad_section_top": 20,
-        "pad_section_bottom": 20
       }
     },
     "rich_text_kViQY7": {
@@ -791,8 +791,8 @@
     "announcement_bar_scrolling_gBqNqg",
     "image_with_text_8ADPwa",
     "rich_text_Mki7TU",
-    "collapsible_content_jdrwfj",
     "lumin_hero_Pq7Gre",
+    "collapsible_content_jdrwfj",
     "rich_text_kViQY7",
     "before_after_rmYV6L",
     "1774355846783fd27e",
