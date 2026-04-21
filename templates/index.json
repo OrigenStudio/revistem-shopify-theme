@@ -94,15 +94,64 @@
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
       }
     },
-    "custom_liquid_HYAyjL": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n.ticker-wrapper {\n  overflow: hidden;\n  background: #fff;\n  border-top: 1px solid #eee;\n  border-bottom: 1px solid #eee;\n}\n\n.ticker {\n  display: flex;\n  width: max-content;\n  animation: scroll 28s linear infinite;\n}\n\n.ticker-wrapper:hover .ticker {\n  animation-play-state: paused;\n}\n\n.ticker-item {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 14px 32px;\n  font-size: 15px;\n  color: #2b2b2b; /* anthracite */\n  transition: transform 0.3s ease;\n  white-space: nowrap;\n}\n\n.ticker-item:hover {\n  transform: translateY(-4px);\n}\n\n.ticker svg {\n  width: 17px;\n  height: 17px;\n  stroke: #2b2b2b;\n  stroke-width: 1.5;\n  fill: none;\n}\n\n@keyframes scroll {\n  from { transform: translateX(0); }\n  to { transform: translateX(-50%); }\n}\n</style>\n\n<div class=\"ticker-wrapper\">\n  <div class=\"ticker\">\n\n    <!-- 1 Spain -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M4 10c2-4 6-6 10-5 3 1 5 4 4 7-1 3-4 5-7 6-3 1-6-1-7-3-1-2-1-3 0-5z\"></path>\n      </svg>\n      Fabricado en España\n    </div>\n\n    <!-- 2 Flask -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M9 3v5l-4 7a3 3 0 003 4h8a3 3 0 003-4l-4-7V3\"></path>\n        <path d=\"M9 8h6\"></path>\n      </svg>\n      Formulación con enfoque científico\n    </div>\n\n    <!-- 3 Magnifying Glass -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"11\" cy=\"11\" r=\"6\"></circle>\n        <path d=\"M20 20l-3.5-3.5\"></path>\n      </svg>\n      Ingredientes seleccionados con criterio\n    </div>\n\n    <!-- 4 Three Lines -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M5 7h14\"></path>\n        <path d=\"M5 12h14\"></path>\n        <path d=\"M5 17h14\"></path>\n      </svg>\n      Sin ingredientes de relleno\n    </div>\n\n    <!-- 5 Radial / Hair Support -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"12\" cy=\"12\" r=\"2\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"5\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"8\"></circle>\n      </svg>\n      Soporte capilar de dentro hacia fuera\n    </div>\n\n    <!-- DUPLICATE FOR SMOOTH LOOP -->\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M4 10c2-4 6-6 10-5 3 1 5 4 4 7-1 3-4 5-7 6-3 1-6-1-7-3-1-2-1-3 0-5z\"></path>\n      </svg>\n      Fabricado en España\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M9 3v5l-4 7a3 3 0 003 4h8a3 3 0 003-4l-4-7V3\"></path>\n        <path d=\"M9 8h6\"></path>\n      </svg>\n      Formulación con enfoque científico\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"11\" cy=\"11\" r=\"6\"></circle>\n        <path d=\"M20 20l-3.5-3.5\"></path>\n      </svg>\n      Ingredientes seleccionados con criterio\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M5 7h14\"></path>\n        <path d=\"M5 12h14\"></path>\n        <path d=\"M5 17h14\"></path>\n      </svg>\n      Sin ingredientes de relleno\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"12\" cy=\"12\" r=\"2\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"5\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"8\"></circle>\n      </svg>\n      Soporte capilar de dentro hacia fuera\n    </div>\n\n  </div>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
+    "1776765978ac165964": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_99f86a6_cekniB": {
+          "type": "ai_gen_block_99f86a6",
+          "settings": {
+            "desktop_width_percent": 100,
+            "section_padding_vertical": 40,
+            "section_padding_horizontal": 20,
+            "item_spacing": 60,
+            "mobile_padding_vertical": 30,
+            "mobile_padding_horizontal": 20,
+            "mobile_item_spacing": 40,
+            "show_dividers": true,
+            "divider_color": "#000000",
+            "divider_opacity": 10,
+            "divider_height": 60,
+            "icon_size": 32,
+            "mobile_icon_size": 28,
+            "icon_color": "#000000",
+            "icon_stroke_width": 1.5,
+            "icon_text_spacing": 16,
+            "title_size": 13,
+            "mobile_title_size": 12,
+            "title_weight": "500",
+            "title_transform": "none",
+            "title_letter_spacing": 0.5,
+            "title_color": "#000000",
+            "title_description_spacing": 6,
+            "description_size": 11,
+            "mobile_description_size": 10,
+            "description_letter_spacing": 0.3,
+            "description_color": "#000000",
+            "description_opacity": 60,
+            "badge_1_enabled": true,
+            "badge_1_icon": "spain",
+            "badge_1_title": "Fabricado en España",
+            "badge_1_description": "Producción local controlada",
+            "badge_2_enabled": true,
+            "badge_2_icon": "shipping",
+            "badge_2_title": "Envío 24–48h",
+            "badge_2_description": "Gratis desde 69€",
+            "badge_3_enabled": true,
+            "badge_3_icon": "leaf",
+            "badge_3_title": "Ingredientes premium",
+            "badge_3_description": "Sin rellenos ni aditivos",
+            "badge_4_enabled": true,
+            "badge_4_icon": "flask",
+            "badge_4_title": "Fórmula clínica",
+            "badge_4_description": "Respaldada por ciencia"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_99f86a6_cekniB"
+      ],
+      "settings": {}
     },
     "featured_collection_rcbPLF": {
       "type": "featured-collection",
@@ -265,6 +314,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_HYAyjL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.ticker-wrapper {\n  overflow: hidden;\n  background: #fff;\n  border-top: 1px solid #eee;\n  border-bottom: 1px solid #eee;\n}\n\n.ticker {\n  display: flex;\n  width: max-content;\n  animation: scroll 28s linear infinite;\n}\n\n.ticker-wrapper:hover .ticker {\n  animation-play-state: paused;\n}\n\n.ticker-item {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 14px 32px;\n  font-size: 15px;\n  color: #2b2b2b; /* anthracite */\n  transition: transform 0.3s ease;\n  white-space: nowrap;\n}\n\n.ticker-item:hover {\n  transform: translateY(-4px);\n}\n\n.ticker svg {\n  width: 17px;\n  height: 17px;\n  stroke: #2b2b2b;\n  stroke-width: 1.5;\n  fill: none;\n}\n\n@keyframes scroll {\n  from { transform: translateX(0); }\n  to { transform: translateX(-50%); }\n}\n</style>\n\n<div class=\"ticker-wrapper\">\n  <div class=\"ticker\">\n\n    <!-- 1 Spain -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M4 10c2-4 6-6 10-5 3 1 5 4 4 7-1 3-4 5-7 6-3 1-6-1-7-3-1-2-1-3 0-5z\"></path>\n      </svg>\n      Fabricado en España\n    </div>\n\n    <!-- 2 Flask -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M9 3v5l-4 7a3 3 0 003 4h8a3 3 0 003-4l-4-7V3\"></path>\n        <path d=\"M9 8h6\"></path>\n      </svg>\n      Formulación con enfoque científico\n    </div>\n\n    <!-- 3 Magnifying Glass -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"11\" cy=\"11\" r=\"6\"></circle>\n        <path d=\"M20 20l-3.5-3.5\"></path>\n      </svg>\n      Ingredientes seleccionados con criterio\n    </div>\n\n    <!-- 4 Three Lines -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M5 7h14\"></path>\n        <path d=\"M5 12h14\"></path>\n        <path d=\"M5 17h14\"></path>\n      </svg>\n      Sin ingredientes de relleno\n    </div>\n\n    <!-- 5 Radial / Hair Support -->\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"12\" cy=\"12\" r=\"2\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"5\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"8\"></circle>\n      </svg>\n      Soporte capilar de dentro hacia fuera\n    </div>\n\n    <!-- DUPLICATE FOR SMOOTH LOOP -->\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M4 10c2-4 6-6 10-5 3 1 5 4 4 7-1 3-4 5-7 6-3 1-6-1-7-3-1-2-1-3 0-5z\"></path>\n      </svg>\n      Fabricado en España\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M9 3v5l-4 7a3 3 0 003 4h8a3 3 0 003-4l-4-7V3\"></path>\n        <path d=\"M9 8h6\"></path>\n      </svg>\n      Formulación con enfoque científico\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"11\" cy=\"11\" r=\"6\"></circle>\n        <path d=\"M20 20l-3.5-3.5\"></path>\n      </svg>\n      Ingredientes seleccionados con criterio\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <path d=\"M5 7h14\"></path>\n        <path d=\"M5 12h14\"></path>\n        <path d=\"M5 17h14\"></path>\n      </svg>\n      Sin ingredientes de relleno\n    </div>\n\n    <div class=\"ticker-item\">\n      <svg viewBox=\"0 0 24 24\">\n        <circle cx=\"12\" cy=\"12\" r=\"2\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"5\"></circle>\n        <circle cx=\"12\" cy=\"12\" r=\"8\"></circle>\n      </svg>\n      Soporte capilar de dentro hacia fuera\n    </div>\n\n  </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "lookbook_mybfjn": {
       "type": "lookbook",
       "disabled": true,
@@ -339,6 +398,7 @@
         "announcement_EaVAQT",
         "announcement_AaXY3L"
       ],
+      "disabled": true,
       "name": "t:sections.announcement-bar.presets.name-scrolling",
       "settings": {
         "background_color": "#ffffff",
@@ -802,74 +862,15 @@
         "heading_font": "serif",
         "main_font": "system_ui_n4"
       }
-    },
-    "1776765978ac165964": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_99f86a6_cekniB": {
-          "type": "ai_gen_block_99f86a6",
-          "settings": {
-            "desktop_width_percent": 100,
-            "section_padding_vertical": 40,
-            "section_padding_horizontal": 20,
-            "item_spacing": 60,
-            "mobile_padding_vertical": 30,
-            "mobile_padding_horizontal": 20,
-            "mobile_item_spacing": 40,
-            "show_dividers": true,
-            "divider_color": "#000000",
-            "divider_opacity": 10,
-            "divider_height": 60,
-            "icon_size": 32,
-            "mobile_icon_size": 28,
-            "icon_color": "#000000",
-            "icon_stroke_width": 1.5,
-            "icon_text_spacing": 16,
-            "title_size": 13,
-            "mobile_title_size": 12,
-            "title_weight": "500",
-            "title_transform": "none",
-            "title_letter_spacing": 0.5,
-            "title_color": "#000000",
-            "title_description_spacing": 6,
-            "description_size": 11,
-            "mobile_description_size": 10,
-            "description_letter_spacing": 0.3,
-            "description_color": "#000000",
-            "description_opacity": 60,
-            "badge_1_enabled": true,
-            "badge_1_icon": "spain",
-            "badge_1_title": "Fabricado en España",
-            "badge_1_description": "Producción local controlada",
-            "badge_2_enabled": true,
-            "badge_2_icon": "shipping",
-            "badge_2_title": "Envío 24–48h",
-            "badge_2_description": "Gratis desde 69€",
-            "badge_3_enabled": true,
-            "badge_3_icon": "leaf",
-            "badge_3_title": "Ingredientes premium",
-            "badge_3_description": "Sin rellenos ni aditivos",
-            "badge_4_enabled": true,
-            "badge_4_icon": "flask",
-            "badge_4_title": "Fórmula clínica",
-            "badge_4_description": "Respaldada por ciencia"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_99f86a6_cekniB"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "slideshow_iabDhC",
     "1776765978ac165964",
-    "custom_liquid_HYAyjL",
     "featured_collection_rcbPLF",
     "lumin_mega_FhahM7",
     "before_after_HJackU",
+    "custom_liquid_HYAyjL",
     "lookbook_mybfjn",
     "announcement_bar_scrolling_gBqNqg",
     "image_with_text_8ADPwa",
