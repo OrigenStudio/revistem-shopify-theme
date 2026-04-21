@@ -158,18 +158,6 @@
           "type": "description",
           "settings": {}
         },
-        "icon_with_text_XwWjGC": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "truck",
-            "heading_1": "Envío en 24-48h",
-            "icon_2": "map_pin",
-            "heading_2": "Fabricado en España",
-            "icon_3": "ruler",
-            "heading_3": "Dosis clínicamente Relevantes"
-          }
-        },
         "shipping_CGrYT3": {
           "type": "shipping",
           "settings": {
@@ -204,8 +192,8 @@
             "skip_cart": false,
             "button_padding_top": 20,
             "button_padding_bottom": 20,
-            "button_custom_style": false,
-            "button_font_size": 20,
+            "button_custom_style": true,
+            "button_font_size": 16,
             "button_height": 45,
             "lm_main_button": "#000000",
             "lm_main_button_gr": "",
@@ -293,6 +281,18 @@
             "open_by_default": false,
             "show_product_description": false
           }
+        },
+        "icon_with_text_XwWjGC": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "Envío en 24-48h",
+            "icon_2": "map_pin",
+            "heading_2": "Fabricado en España",
+            "icon_3": "ruler",
+            "heading_3": "Dosis clínicamente Relevantes"
+          }
         }
       },
       "block_order": [
@@ -304,7 +304,6 @@
         "trust_feature_xnRc3U",
         "inventory_4fpVhP",
         "description_kzKRHC",
-        "icon_with_text_XwWjGC",
         "shipping_CGrYT3",
         "buy_buttons",
         "collapsible_tab_ptCdTk",
@@ -313,7 +312,8 @@
         "collapsible_tab_K8PCaK",
         "collapsible_tab_tN7hJQ",
         "collapsible_tab_kzPLfE",
-        "collapsible_tab_RybkgE"
+        "collapsible_tab_RybkgE",
+        "icon_with_text_XwWjGC"
       ],
       "custom_css": [],
       "settings": {
