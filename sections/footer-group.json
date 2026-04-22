@@ -189,7 +189,7 @@
           "type": "text",
           "settings": {
             "heading": "Contacto",
-            "subtext": "<p>¿Tienes dudas sobre el tratamiento?<br/>Escríbenos y te ayudamos. <a href=\"/pages/contact\" target=\"_blank\" title=\"Contacto\">Contáctanos</a></p><p>hola@revistem.com</p>"
+            "subtext": "<p>¿Tienes dudas sobre el tratamiento?<br/>Escríbenos y te ayudamos. </p><p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contacto\">Contáctanos</a></p><p>hola@revistem.com</p>"
           }
         }
       },
