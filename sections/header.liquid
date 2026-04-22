@@ -435,24 +435,13 @@
         this.header.classList.add('shopify-section-header-sticky');
       };
 
-      this.ticking = false;
+      this.onScrollHandler = this.onScroll.bind(this);
+      this.hideHeaderOnScrollUp = () => this.preventReveal = true;
 
-this.onScrollHandler = () => {
-  if (!this.ticking) {
-    window.requestAnimationFrame(() => {
-      this.onScroll();
-      this.ticking = false;
-    });
-    this.ticking = true;
-  }
-};
+      this.addEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
+      window.addEventListener('scroll', this.onScrollHandler, false);
 
-this.hideHeaderOnScrollUp = () => this.preventReveal = true;
-
-this.addEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
-window.addEventListener('scroll', this.onScrollHandler, { passive: true });
-
-this.createObserver();
+      this.createObserver();
     }
 
     setHeaderHeight() {
