@@ -266,8 +266,8 @@
         "text_UxTGHt": {
           "type": "text",
           "settings": {
-            "heading": "¿Necesitas ponerte en contacto?",
-            "subtext": "<p>¿Preguntas o comentarios? Escríbenos, nos encantaría saber de ti. <a href=\"/pages/contact\" target=\"_blank\" title=\"Contacto\">Contáctanos</a></p><p>hola@revistem.com</p>"
+            "heading": "Contacto",
+            "subtext": "<p>¿Tienes dudas sobre el tratamiento?<br/>Escríbenos y te ayudamos. <a href=\"/pages/contact\" target=\"_blank\" title=\"Contacto\">Contáctanos</a></p><p>hola@revistem.com</p>"
           }
         }
       },
