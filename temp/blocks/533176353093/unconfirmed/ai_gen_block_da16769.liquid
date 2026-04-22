@@ -1,6 +1,465 @@
+{% doc %}
+  @prompt
+    I want to design a final “brand philosophy / closing statement” section for a premium hair supplement brand (Revistem).
+    
+    Context:
+    - Brand tone: clinical, honest, minimal, evidence-based
+    - No exaggerated claims, no marketing hype
+    - Aesthetic: editorial, clean, similar to Aesop / The Ordinary
+    - This is the closing section of the page
+    
+    Core message:
+    “Revistem no busca sustituir tratamientos.
+    Busca complementarlos con criterio.
+    Porque entender el problema es el primer paso para tratarlo bien.”
+    
+    Goal:
+    Create a strong, memorable closing that reinforces trust and brand philosophy.
+    
+    Requirements:
+    - Very minimal design
+    - Large typography for main statement
+    - Short supporting line (optional)
+    - No buttons or distractions
+    - Should feel calm, confident, and premium
+    
+    Design direction:
+    - Centered layout
+    - Lots of white space
+    - Typography-driven (quote style)
+    - Subtle visual separation from previous section
+    
+    Also:
+    - Refine the Spanish copy while keeping the same meaning
+    - Provide 2–3 variations of the statement (same tone)
+    - Suggest hierarchy (what goes big, what goes small)
+    
+    Output:
+    - Final Spanish copy (main + optional supporting line)
+    - Layout description
+    - Typography/style recommendation
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-brand-statement-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.padding_top }}px 20px {{ block.settings.padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-brand-statement__container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-brand-statement__main-{{ ai_gen_id }} {
+    font-family: {{ block.settings.main_font.family }}, {{ block.settings.main_font.fallback_families }};
+    font-weight: {{ block.settings.main_font.weight }};
+    font-size: {{ block.settings.main_font_size }}px;
+    line-height: {{ block.settings.main_line_height }};
+    color: {{ block.settings.main_text_color }};
+    margin: 0 0 {{ block.settings.spacing_between }}px 0;
+    letter-spacing: {{ block.settings.main_letter_spacing }}px;
+  }
+
+  .ai-brand-statement__supporting-{{ ai_gen_id }} {
+    font-family: {{ block.settings.supporting_font.family }}, {{ block.settings.supporting_font.fallback_families }};
+    font-weight: {{ block.settings.supporting_font.weight }};
+    font-size: {{ block.settings.supporting_font_size }}px;
+    line-height: {{ block.settings.supporting_line_height }};
+    color: {{ block.settings.supporting_text_color }};
+    margin: 0;
+    opacity: {{ block.settings.supporting_opacity | divided_by: 100.0 }};
+    letter-spacing: {{ block.settings.supporting_letter_spacing }}px;
+  }
+
+  .ai-brand-statement__divider-{{ ai_gen_id }} {
+    width: {{ block.settings.divider_width }}px;
+    height: {{ block.settings.divider_height }}px;
+    background-color: {{ block.settings.divider_color }};
+    margin: {{ block.settings.divider_margin_top }}px auto {{ block.settings.divider_margin_bottom }}px;
+    opacity: {{ block.settings.divider_opacity | divided_by: 100.0 }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-brand-statement-{{ ai_gen_id }} {
+      padding: {{ block.settings.padding_top_mobile }}px 16px {{ block.settings.padding_bottom_mobile }}px;
+    }
+
+    .ai-brand-statement__main-{{ ai_gen_id }} {
+      font-size: {{ block.settings.main_font_size_mobile }}px;
+      line-height: {{ block.settings.main_line_height_mobile }};
+    }
+
+    .ai-brand-statement__supporting-{{ ai_gen_id }} {
+      font-size: {{ block.settings.supporting_font_size_mobile }}px;
+      line-height: {{ block.settings.supporting_line_height_mobile }};
+    }
+  }
+{% endstyle %}
+
+<div class="ai-brand-statement-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-brand-statement__container-{{ ai_gen_id }}">
+    {% if block.settings.show_divider_top %}
+      <div class="ai-brand-statement__divider-{{ ai_gen_id }}"></div>
+    {% endif %}
+
+    {% if block.settings.main_statement != blank %}
+      <div class="ai-brand-statement__main-{{ ai_gen_id }}">
+        {{ block.settings.main_statement }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.supporting_line != blank %}
+      <div class="ai-brand-statement__supporting-{{ ai_gen_id }}">
+        {{ block.settings.supporting_line }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.show_divider_bottom %}
+      <div class="ai-brand-statement__divider-{{ ai_gen_id }}"></div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Brand statement",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "main_statement",
+      "label": "Main statement",
+      "default": "<p>Revistem no sustituye tratamientos.<br>Los complementa con criterio.</p>",
+      "info": "Large, primary message. Use <br> for line breaks."
+    },
+    {
+      "type": "richtext",
+      "id": "supporting_line",
+      "label": "Supporting line",
+      "default": "<p>Porque entender el problema es el primer paso para tratarlo bien.</p>",
+      "info": "Optional secondary message"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maximum width",
+      "min": 400,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "default": 800
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "spacing_between",
+      "label": "Space between texts",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Main statement style"
+    },
+    {
+      "type": "font_picker",
+      "id": "main_font",
+      "label": "Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "main_font_size",
+      "label": "Font size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "main_font_size_mobile",
+      "label": "Font size (mobile)",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "main_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.3
+    },
+    {
+      "type": "range",
+      "id": "main_line_height_mobile",
+      "label": "Line height (mobile)",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.3
+    },
+    {
+      "type": "range",
+      "id": "main_letter_spacing",
+      "label": "Letter spacing",
+      "min": -2,
+      "max": 4,
+      "step": 0.5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "main_text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Supporting line style"
+    },
+    {
+      "type": "font_picker",
+      "id": "supporting_font",
+      "label": "Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "supporting_font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "supporting_font_size_mobile",
+      "label": "Font size (mobile)",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "supporting_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.5
+    },
+    {
+      "type": "range",
+      "id": "supporting_line_height_mobile",
+      "label": "Line height (mobile)",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.5
+    },
+    {
+      "type": "range",
+      "id": "supporting_letter_spacing",
+      "label": "Letter spacing",
+      "min": -1,
+      "max": 3,
+      "step": 0.5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "supporting_text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "supporting_opacity",
+      "label": "Opacity",
+      "min": 40,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 70
+    },
+    {
+      "type": "header",
+      "content": "Divider"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_top",
+      "label": "Show divider above",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_bottom",
+      "label": "Show divider below",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "divider_width",
+      "label": "Width",
+      "min": 20,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "divider_height",
+      "label": "Thickness",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "divider_opacity",
+      "label": "Opacity",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "divider_margin_top",
+      "label": "Margin top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "divider_margin_bottom",
+      "label": "Margin bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Padding top (mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Padding bottom (mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#FFFFFF"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand statement"
+    }
+  ]
+}
 {% endschema %}
