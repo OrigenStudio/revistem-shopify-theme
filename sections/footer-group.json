@@ -31,7 +31,6 @@
         "heading_VBJKEe",
         "email_form_Np3YfU"
       ],
-      "disabled": true,
       "settings": {
         "background_style": "normal",
         "overlay_opacity": 15,
@@ -43,7 +42,7 @@
         "full_width": true,
         "border_radius": 0,
         "padding_top": 0,
-        "padding_bottom": 52,
+        "padding_bottom": 0,
         "padding_top_inner": 40,
         "padding_bottom_inner": 40,
         "padding_side_inner": 32,
@@ -168,7 +167,7 @@
         "brand_information_Br4bBK": {
           "type": "brand_information",
           "settings": {
-            "show_social": false
+            "show_social": true
           }
         },
         "link_list_JinYBi": {
@@ -201,12 +200,12 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "show_collapse": true,
         "collapse_mode": "menu_only",
         "newsletter_heading": "Recibe contenido sobre salud capilar, formulación y actualizaciones de producto.",
-        "enable_follow_on_shop": true,
-        "show_social": true,
+        "enable_follow_on_shop": false,
+        "show_social": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
