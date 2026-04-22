@@ -198,6 +198,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "177684373859d7c8c8": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_64f42f9_dnVR9Y": {
+          "type": "ai_gen_block_64f42f9",
+          "settings": {
+            "main_text": "No vendemos resultados milagrosos. Vendemos constancia con criterio.",
+            "supporting_text": "",
+            "main_font": "questrial_n4",
+            "main_font_size": 48,
+            "main_font_size_mobile": 28,
+            "main_line_height": 1.2,
+            "main_letter_spacing": 0,
+            "main_text_color": "#000000",
+            "supporting_font": "assistant_n4",
+            "supporting_font_size": 16,
+            "supporting_font_size_mobile": 14,
+            "supporting_line_height": 1.5,
+            "supporting_letter_spacing": 0,
+            "supporting_spacing": 24,
+            "supporting_text_color": "#000000",
+            "supporting_opacity": 70,
+            "max_width": 800,
+            "spacing_top": 100,
+            "spacing_bottom": 100,
+            "spacing_top_mobile": 60,
+            "spacing_bottom_mobile": 60,
+            "background_color": "#e6e6e6",
+            "show_divider_top": false,
+            "show_divider_bottom": false,
+            "divider_width": 60,
+            "divider_spacing": 40,
+            "divider_color": "#000000",
+            "divider_opacity": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_64f42f9_dnVR9Y"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -205,6 +248,7 @@
     "video_new_Wpi43U",
     "image_banner_whhJiG",
     "rich_text_pxGm8H",
-    "image_with_text_RfXdzE"
+    "image_with_text_RfXdzE",
+    "177684373859d7c8c8"
   ]
 }
