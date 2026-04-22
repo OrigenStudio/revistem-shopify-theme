@@ -241,6 +241,40 @@
         "ai_gen_block_64f42f9_dnVR9Y"
       ],
       "settings": {}
+    },
+    "featured_collection_XDxYph": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Dos fórmulas. Un mismo criterio.",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_scroll_tags": false,
+        "show_product_description": true,
+        "description_font_size": 14,
+        "description_word_limit": 20,
+        "quick_add": "standard",
+        "show_secondary_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -249,6 +283,7 @@
     "image_banner_whhJiG",
     "rich_text_pxGm8H",
     "image_with_text_RfXdzE",
-    "177684373859d7c8c8"
+    "177684373859d7c8c8",
+    "featured_collection_XDxYph"
   ]
 }
