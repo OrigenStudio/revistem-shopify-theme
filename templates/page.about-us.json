@@ -142,43 +142,17 @@
         "padding_bottom": 52
       }
     },
-    "multirow_mtDQcq": {
-      "type": "multirow",
-      "blocks": {
-        "row_RmpDeG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2151307410.jpg",
-            "caption": "REVISTEM",
-            "heading": "Un enfoque basado en evidencia",
-            "text": "<ul><li>Ingredientes con dosis relevantes</li><li>Sin cantidades simbólicas para marketing</li><li>Compatibilidad real con tratamientos médicos</li><li>Transparencia sobre lo que un suplemento puede y no puede hacer</li></ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_RmpDeG"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_RfXdzE": {
       "type": "image-with-text",
       "blocks": {
+        "caption_h4jhaN": {
+          "type": "caption",
+          "settings": {
+            "caption": "REVISTEM",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_H6zWpA": {
           "type": "heading",
           "settings": {
@@ -203,16 +177,18 @@
         }
       },
       "block_order": [
+        "caption_h4jhaN",
         "heading_H6zWpA",
         "text_XHTWUa",
         "button_KJTx3B"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "height": "adapt",
+        "image": "shopify://shop_images/495580998_1235595038574656_4948464342182066681_n.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -229,7 +205,6 @@
     "video_new_Wpi43U",
     "image_banner_whhJiG",
     "rich_text_pxGm8H",
-    "multirow_mtDQcq",
     "image_with_text_RfXdzE"
   ]
 }
