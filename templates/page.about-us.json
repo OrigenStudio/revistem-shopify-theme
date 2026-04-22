@@ -99,9 +99,10 @@
         "row_RmpDeG": {
           "type": "row",
           "settings": {
-            "caption": "Brand Name",
-            "heading": "Our Story",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac velit nec metus tincidunt varius. In hac habitasse platea dictumst. Suspendisse potenti. Proin ut quam eu elit rhoncus euismod. Phasellus consectetur risus eget neque fermentum, vel ullamcorper purus efficitur. Sed nec urna eu justo volutpat accumsan.</p>",
+            "image": "shopify://shop_images/2151307410.jpg",
+            "caption": "REVISTEM",
+            "heading": "Un enfoque basado en evidencia",
+            "text": "<ul><li>Ingredientes con dosis relevantes</li><li>Sin cantidades simbólicas para marketing</li><li>Compatibilidad real con tratamientos médicos</li><li>Transparencia sobre lo que un suplemento puede y no puede hacer</li></ul>",
             "button_label": "",
             "button_link": ""
           }
