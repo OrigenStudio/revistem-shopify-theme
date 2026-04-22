@@ -164,7 +164,7 @@
           "type": "text",
           "settings": {
             "text": "<ul><li>Ingredientes con dosis relevantes</li><li>Sin cantidades simbólicas para marketing</li><li>Compatibilidad real con tratamientos médico</li><li>Transparencia sobre lo que un suplemento puede y no puede hacer</li></ul>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_KJTx3B": {
