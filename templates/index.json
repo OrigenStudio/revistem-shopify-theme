@@ -9,6 +9,55 @@
  */
 {
   "sections": {
+    "image_banner_VnkGmT": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xK6JJp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Revistem Hair Formula",
+            "heading_size": "h0"
+          }
+        },
+        "text_DmH6g8": {
+          "type": "text",
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
+          }
+        },
+        "buttons_iKxBea": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Comprar",
+            "button_link_1": "shopify://collections/frontpage",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xK6JJp",
+        "text_DmH6g8",
+        "buttons_iKxBea"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Banner-Home-Revistem-2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-432ebd2e-d028-479d-a977-e37beaafdb8d",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "slideshow_iabDhC": {
       "type": "slideshow",
       "blocks": {
@@ -116,6 +165,7 @@
         "slide_LnDg8d",
         "slide_TnkpPR"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -796,6 +846,7 @@
     }
   },
   "order": [
+    "image_banner_VnkGmT",
     "slideshow_iabDhC",
     "countdown_timer_t9GjmT",
     "featured_collection_rcbPLF",
