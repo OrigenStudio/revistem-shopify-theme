@@ -325,7 +325,7 @@
         "media_size": "medium",
         "constrain_to_viewport": false,
         "media_fit": "cover",
-        "gallery_layout": "vertical_left",
+        "gallery_layout": "stacked",
         "hide_slider_buttons": false,
         "thumbnail_layout": "medium",
         "thumbnail_size": 54,
