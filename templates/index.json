@@ -338,52 +338,6 @@
         "padding_bottom": 0
       }
     },
-    "before_after_HJackU": {
-      "type": "before-after",
-      "blocks": {
-        "text_BadK4B": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "heading": "Before & After",
-            "heading_tag": "h2",
-            "heading_size": 32,
-            "content": "See the stunning transformations our products deliver — real results from real customers.",
-            "text_position": "center",
-            "color": "#000000"
-          }
-        },
-        "images_PrgtTn": {
-          "type": "images",
-          "settings": {
-            "desktop_height": 500,
-            "mobile_height": 280,
-            "border_radius": 12,
-            "drag_initial_position": 50,
-            "cover": true,
-            "before_text": "Before",
-            "after_text": "After",
-            "before_after_text_position": "bottom",
-            "before_text_color": "#ffffff",
-            "after_text_color": "#ffffff",
-            "drag_cursor_bg": "#ffffff",
-            "drag_cursor_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "text_BadK4B",
-        "images_PrgtTn"
-      ],
-      "disabled": true,
-      "name": "Before & After",
-      "settings": {
-        "background_color": "#fafafa",
-        "background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_liquid_HYAyjL": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -856,7 +810,6 @@
     "featured_collection_rcbPLF",
     "1776765978ac165964",
     "lumin_mega_FhahM7",
-    "before_after_HJackU",
     "custom_liquid_HYAyjL",
     "lookbook_mybfjn",
     "announcement_bar_scrolling_gBqNqg",
