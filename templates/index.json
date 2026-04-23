@@ -14,6 +14,7 @@
       "blocks": {
         "slide_hjbDU3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Diseno_sin_titulo_1_180e985f-a5a0-439f-84c5-2c009cc645b0.png",
             "mobile_image": "shopify://shop_images/Revistem_Hair_Banner_Mobile2.png",
@@ -46,6 +47,7 @@
         },
         "slide_LnDg8d": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Diseno_sin_titulo_9220077e-6f95-4835-af76-b461393ac071.png",
             "mobile_image": "shopify://shop_images/Revistem_Hair_Forte_Banner_Mobile.png",
@@ -79,8 +81,8 @@
         "slide_TnkpPR": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/freepik_2839212563_copia.jpg",
-            "mobile_image": "shopify://shop_images/freepik_2839118414.jpg",
+            "image": "shopify://shop_images/Banner-Home-Revistem.jpg",
+            "mobile_image": "shopify://shop_images/Banner-Home-Revistem-responsve.jpg",
             "caption": "",
             "block_cap_size": 20,
             "cap_color": "#222222",
