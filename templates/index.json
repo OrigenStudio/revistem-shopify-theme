@@ -470,7 +470,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/freepik_2839118414.jpg",
+        "image": "shopify://shop_images/freepik_2833701775.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -479,10 +479,10 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "background-1",
         "color_scheme": "background-1",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 24
       }
     },
     "rich_text_Mki7TU": {
