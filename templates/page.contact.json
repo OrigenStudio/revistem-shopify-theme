@@ -58,33 +58,24 @@
     "rich_text_nQEkG8": {
       "type": "rich-text",
       "blocks": {
-        "heading_LEpqzQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "We are here to help you",
-            "heading_size": "h2"
-          }
-        },
         "heading_9GGbFc": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Need Help?</strong>",
+            "heading": "Contacto",
             "heading_size": "h0"
           }
         },
-        "caption_C8BVCh": {
-          "type": "caption",
+        "heading_VfTU9y": {
+          "type": "heading",
           "settings": {
-            "caption": "Have a question or comment? Don't be shy: Reach out and say hi! Support hours: Monday-Friday, 7am-3pm",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
+            "heading": "Si tienes dudas sobre el tratamiento, el pedido o tu compra, escríbenos y te ayudamos.",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading_LEpqzQ",
         "heading_9GGbFc",
-        "caption_C8BVCh"
+        "heading_VfTU9y"
       ],
       "settings": {
         "desktop_content_position": "center",
