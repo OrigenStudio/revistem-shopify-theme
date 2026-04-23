@@ -284,7 +284,7 @@
       ],
       "settings": {
         "color_scheme_main": "",
-        "full-width": false,
+        "full-width": true,
         "image": "shopify://shop_images/Gray_and_Black_Minimalist_Digital_Mockup_Facebook_Post_3_03ec4cc0-3599-4222-b920-374ffa13aac9.png",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -292,13 +292,13 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "scheme-36a94306-aa7e-4414-831f-3c6ab711150c",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "margin_top": 16,
         "margin_bottom": 4,
-        "padding_top": 16,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "before_after_HJackU": {
