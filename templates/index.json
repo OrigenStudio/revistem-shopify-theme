@@ -655,7 +655,7 @@
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "caption": "",
+        "caption": "FAQ",
         "heading": "Preguntas frecuentes",
         "heading_size": "h1",
         "heading_alignment": "center",
