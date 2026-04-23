@@ -96,9 +96,9 @@
       "settings": {
         "enable_transparent-header": true,
         "enable_hover_animation": false,
-        "color-transparent": "#3b3b3b",
+        "color-transparent": "#1c1d19",
         "color-hover-background": "#ffffff",
-        "color-hover-text": "#000000",
+        "color-hover-text": "#1c1d19",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
