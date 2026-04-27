@@ -337,11 +337,6 @@
         "disabled": false,
         "settings": {}
       },
-      "6615124273980966592": {
-        "type": "shopify://apps/chatty/blocks/app-embed/1c0e135d-e8e1-4fe2-86be-1c36def46675",
-        "disabled": false,
-        "settings": {}
-      },
       "6544682535036668446": {
         "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
@@ -360,6 +355,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "6615124273980966592": {
+        "type": "shopify://apps/chatty/blocks/app-embed/1c0e135d-e8e1-4fe2-86be-1c36def46675",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
