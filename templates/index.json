@@ -15,7 +15,7 @@
         "slide_TnkpPR": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BANNER-V3-2.png",
+            "image": "shopify://shop_images/Banner-pc.png",
             "mobile_image": "shopify://shop_images/Banner-Home-1-responsve.jpg",
             "caption": "",
             "block_cap_size": 10,
@@ -64,7 +64,7 @@
             "subheading_line_height_mobile": 1.4,
             "button_label": "",
             "link": "",
-            "link-2": "",
+            "link-2": "shopify://products/revistem-hair-forte",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -96,7 +96,7 @@
             "subheading_line_height_mobile": 1.4,
             "button_label": "",
             "link": "",
-            "link-2": "",
+            "link-2": "shopify://products/revistem-hair",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
