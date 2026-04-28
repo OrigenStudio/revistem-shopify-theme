@@ -376,10 +376,9 @@
         },
         "button_8w83gA": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
+            "button_label": "Ver productos",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -402,6 +401,50 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "1777364794fb9a1646": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_026d881_eNTQeX": {
+          "type": "ai_gen_block_026d881",
+          "disabled": true,
+          "settings": {
+            "title": "Compatibilidad con tratamientos activos",
+            "main_content": "<p>Revistem está formulado para complementar protocolos activos como minoxidil, finasteride o tratamientos capilares profesionales.</p><p>Aporta nutrientes esenciales que refuerzan la salud del folículo desde el interior, sin interferir con mecanismos de acción externos.</p><p>Puede integrarse de forma segura en rutinas existentes bajo supervisión profesional.</p>",
+            "disclaimer": "<p>Este producto no sustituye tratamientos médicos. Consulta con tu especialista antes de combinarlo con medicación prescrita. No está destinado a diagnosticar, tratar o prevenir ninguna enfermedad.</p>",
+            "desktop_width_percent": 100,
+            "content_max_width": 700,
+            "section_padding": 40,
+            "horizontal_padding": 20,
+            "title_size": 28,
+            "title_size_mobile": 24,
+            "title_weight": "700",
+            "title_color": "#000000",
+            "title_spacing": 25,
+            "body_size": 16,
+            "body_size_mobile": 15,
+            "body_line_height": 1.6,
+            "body_color": "#333333",
+            "paragraph_spacing": 15,
+            "content_spacing": 30,
+            "show_divider": true,
+            "divider_color": "#e0e0e0",
+            "divider_opacity": 50,
+            "divider_spacing": 25,
+            "disclaimer_size": 13,
+            "disclaimer_size_mobile": 12,
+            "disclaimer_line_height": 1.5,
+            "disclaimer_color": "#666666",
+            "disclaimer_paragraph_spacing": 10,
+            "disclaimer_spacing": 25
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_026d881_eNTQeX"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -414,6 +457,7 @@
     "177684373859d7c8c8",
     "featured_collection_XDxYph",
     "17768460246c86cffa",
-    "rich_text_QckV8b"
+    "rich_text_QckV8b",
+    "1777364794fb9a1646"
   ]
 }
