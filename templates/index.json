@@ -70,7 +70,7 @@
             "show_text_box": false,
             "container_size": 1000,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "color_scheme": "accent-1",
             "box_align_mobile": "middle",
             "text_alignment_mobile": "center"
@@ -102,7 +102,7 @@
             "show_text_box": false,
             "container_size": 650,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "color_scheme": "accent-1",
             "box_align_mobile": "middle",
             "text_alignment_mobile": "center"
