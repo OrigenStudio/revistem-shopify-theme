@@ -62,58 +62,6 @@
         "mobile_height": 500
       }
     },
-    "17773612137123ae55": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d31465e_xmrM7n": {
-          "type": "ai_gen_block_d31465e",
-          "settings": {
-            "show_title": true,
-            "section_title": "Por qué existe Revistem",
-            "title_font": "assistant_n4",
-            "title_size": 14,
-            "title_size_mobile": 12,
-            "title_color": "#999999",
-            "title_spacing": 16,
-            "title_spacing_mobile": 12,
-            "show_divider": false,
-            "divider_width": 40,
-            "divider_color": "#e0e0e0",
-            "divider_spacing": 32,
-            "divider_spacing_mobile": 24,
-            "paragraph_1": "Revistem nació de una búsqueda personal. Buscaba un suplemento capilar que no se limitara a poner biotina y saw palmetto en una cápsula y llamarlo \"fórmula avanzada\".",
-            "paragraph_2": "Quería algo que atacara el problema desde dentro: soporte folicular real, pero también soporte celular, mitocondrial y antioxidante sistémico.",
-            "paragraph_3": "Lo que encontré en el mercado era o demasiado superficial o demasiado genérico. Fórmulas con ingredientes interesantes en dosis que no sirven para nada. Marketing construido sobre claims que ninguna etiqueta podía sostener.",
-            "paragraph_4": "Así que decidí formularlo desde cero, con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar.",
-            "closing_line": "Revistem es el resultado de ese proceso.",
-            "body_font": "assistant_n4",
-            "body_size": 16,
-            "body_size_mobile": 15,
-            "line_height": 1.8,
-            "text_color": "#333333",
-            "closing_size": 15,
-            "closing_size_mobile": 14,
-            "closing_style": "normal",
-            "content_max_width": 640,
-            "paragraph_spacing": 28,
-            "paragraph_spacing_mobile": 20,
-            "emphasis_spacing": 12,
-            "emphasis_spacing_mobile": 8,
-            "closing_spacing": 48,
-            "closing_spacing_mobile": 32,
-            "section_padding_top": 80,
-            "section_padding_bottom": 80,
-            "section_padding_top_mobile": 48,
-            "section_padding_bottom_mobile": 48
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d31465e_xmrM7n"
-      ],
-      "settings": {}
-    },
     "image_banner_whhJiG": {
       "type": "image-banner",
       "blocks": {
@@ -138,9 +86,9 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/freepik_2839142552.jpg",
+        "image": "shopify://shop_images/freepik_change-the-bathroom-style_2833798120.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -182,6 +130,44 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "17773612137123ae55": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f58c6ec_mEz6K9": {
+          "type": "ai_gen_block_f58c6ec",
+          "settings": {
+            "title": "Por qué existe Revistem",
+            "paragraph_1": "Revistem nació de una búsqueda personal. Buscaba un suplemento capilar que no se limitara a poner biotina y saw palmetto en una cápsula y llamarlo 'fórmula avanzada'.",
+            "paragraph_2": "Quería algo que atacara el problema desde dentro: soporte folicular real, pero también soporte celular, mitocondrial y antioxidante sistémico.",
+            "paragraph_3": "Lo que encontré en el mercado era o demasiado superficial o demasiado genérico.",
+            "paragraph_4": "Fórmulas con ingredientes interesantes en dosis que no sirven para nada. Marketing construido sobre claims que ninguna etiqueta podía sostener.",
+            "paragraph_5": "Así que decidí formularlo desde cero, con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar.",
+            "paragraph_6": "Revistem es el resultado de ese proceso.",
+            "content_max_width": 680,
+            "desktop_offset": 100,
+            "horizontal_padding": 30,
+            "padding_top": 100,
+            "padding_bottom": 100,
+            "title_size": 30,
+            "title_size_mobile": 24,
+            "title_weight": "500",
+            "title_spacing": 50,
+            "body_size": 17,
+            "body_size_mobile": 16,
+            "body_line_height": 1.7,
+            "paragraph_spacing": 30,
+            "background_color": "#F9F2E9",
+            "text_color": "#2B2B2B"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f58c6ec_mEz6K9"
+      ],
+      "custom_css": [],
+      "settings": {}
     },
     "image_with_text_RfXdzE": {
       "type": "image-with-text",
