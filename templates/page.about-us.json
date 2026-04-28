@@ -88,8 +88,8 @@
       "settings": {
         "image": "shopify://shop_images/freepik_using-the-same-color-pale_2833632895.png",
         "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "top-left",
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "inverse",
