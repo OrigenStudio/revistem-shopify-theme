@@ -1,6 +1,536 @@
+{% doc %}
+  @prompt
+    I want to design a “brand origin / why we exist” section for a premium hair supplement brand (Revistem).
+    
+    Context:
+    - Brand tone: clinical, honest, evidence-based, non-marketing
+    - Not emotional storytelling, but rational and credible
+    - Audience: informed users, often already researching hair loss treatments
+    - Aesthetic: minimal, clean, similar to Aesop / The Ordinary
+    - No hype, no exaggerated claims
+    
+    Core idea:
+    The brand was created because existing supplements were either superficial or generic, with low doses and marketing-driven formulations.
+    
+    Goal:
+    Create a strong, credible “origin story” section that builds trust and explains why Revistem exists.
+    
+    Content to adapt (Spanish, you can refine but keep meaning):
+    
+    "Revistem nació de una búsqueda personal. Buscaba un suplemento capilar que no se limitara a poner biotina y saw palmetto en una cápsula y llamarlo 'fórmula avanzada'. Quería algo que atacara el problema desde dentro: soporte folicular real, pero también soporte celular, mitocondrial y antioxidante sistémico.
+    
+    Lo que encontré en el mercado era o demasiado superficial o demasiado genérico. Fórmulas con ingredientes interesantes en dosis que no sirven para nada. Marketing construido sobre claims que ninguna etiqueta podía sostener.
+    
+    Así que decidí formularlo desde cero, con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar.
+    
+    Revistem es el resultado de ese proceso."
+    
+    Requirements:
+    - Break the text into short, readable paragraphs (max 2–3 lines each)
+    - Improve flow and clarity without changing meaning
+    - Maintain a serious, credible tone
+    - Avoid sounding like a marketing story
+    - Highlight key ideas subtly (not bold-heavy, just structure)
+    
+    Design direction:
+    - Left-aligned text block (not centered)
+    - Generous white space
+    - No cards, no boxes
+    - Editorial feel (like a long-form article)
+    - Optional small section title above (e.g. “Por qué existe Revistem”)
+    
+    Also:
+    - Suggest a refined section title (Spanish)
+    - Suggest paragraph structure (how many blocks and order)
+    - Suggest if any sentence should be emphasized (typography, spacing)
+    
+    Output:
+    - Final Spanish copy (clean and structured)
+    - Section title options
+    - Layout/UX suggestion
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-brand-origin-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.section_padding_top }}px 0 {{ block.settings.section_padding_bottom }}px;
+  }
+
+  .ai-brand-origin-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.content_max_width }}px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-brand-origin-title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-size: {{ block.settings.title_size }}px;
+    line-height: 1.3;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 {{ block.settings.title_spacing }}px 0;
+    letter-spacing: 0.02em;
+  }
+
+  .ai-brand-origin-divider-{{ ai_gen_id }} {
+    width: {{ block.settings.divider_width }}px;
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin: 0 0 {{ block.settings.divider_spacing }}px 0;
+  }
+
+  .ai-brand-origin-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.paragraph_spacing }}px;
+  }
+
+  .ai-brand-origin-paragraph-{{ ai_gen_id }} {
+    font-family: {{ block.settings.body_font.family }}, {{ block.settings.body_font.fallback_families }};
+    font-weight: {{ block.settings.body_font.weight }};
+    font-size: {{ block.settings.body_size }}px;
+    line-height: {{ block.settings.line_height }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-brand-origin-paragraph-{{ ai_gen_id }}.emphasis {
+    margin-top: {{ block.settings.emphasis_spacing }}px;
+  }
+
+  .ai-brand-origin-closing-{{ ai_gen_id }} {
+    font-family: {{ block.settings.body_font.family }}, {{ block.settings.body_font.fallback_families }};
+    font-weight: {{ block.settings.body_font.weight }};
+    font-size: {{ block.settings.closing_size }}px;
+    line-height: {{ block.settings.line_height }};
+    color: {{ block.settings.text_color }};
+    margin: {{ block.settings.closing_spacing }}px 0 0 0;
+    font-style: {{ block.settings.closing_style }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-brand-origin-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding_top_mobile }}px 0 {{ block.settings.section_padding_bottom_mobile }}px;
+    }
+
+    .ai-brand-origin-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size_mobile }}px;
+      margin-bottom: {{ block.settings.title_spacing_mobile }}px;
+    }
+
+    .ai-brand-origin-divider-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.divider_spacing_mobile }}px;
+    }
+
+    .ai-brand-origin-content-{{ ai_gen_id }} {
+      gap: {{ block.settings.paragraph_spacing_mobile }}px;
+    }
+
+    .ai-brand-origin-paragraph-{{ ai_gen_id }} {
+      font-size: {{ block.settings.body_size_mobile }}px;
+    }
+
+    .ai-brand-origin-paragraph-{{ ai_gen_id }}.emphasis {
+      margin-top: {{ block.settings.emphasis_spacing_mobile }}px;
+    }
+
+    .ai-brand-origin-closing-{{ ai_gen_id }} {
+      font-size: {{ block.settings.closing_size_mobile }}px;
+      margin-top: {{ block.settings.closing_spacing_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-brand-origin-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-brand-origin-container-{{ ai_gen_id }}">
+    {% if block.settings.show_title and block.settings.section_title != blank %}
+      <h2 class="ai-brand-origin-title-{{ ai_gen_id }}">{{ block.settings.section_title }}</h2>
+    {% endif %}
+
+    {% if block.settings.show_divider %}
+      <div class="ai-brand-origin-divider-{{ ai_gen_id }}"></div>
+    {% endif %}
+
+    <div class="ai-brand-origin-content-{{ ai_gen_id }}">
+      {% if block.settings.paragraph_1 != blank %}
+        <p class="ai-brand-origin-paragraph-{{ ai_gen_id }}">{{ block.settings.paragraph_1 }}</p>
+      {% endif %}
+
+      {% if block.settings.paragraph_2 != blank %}
+        <p class="ai-brand-origin-paragraph-{{ ai_gen_id }}">{{ block.settings.paragraph_2 }}</p>
+      {% endif %}
+
+      {% if block.settings.paragraph_3 != blank %}
+        <p class="ai-brand-origin-paragraph-{{ ai_gen_id }} emphasis">{{ block.settings.paragraph_3 }}</p>
+      {% endif %}
+
+      {% if block.settings.paragraph_4 != blank %}
+        <p class="ai-brand-origin-paragraph-{{ ai_gen_id }}">{{ block.settings.paragraph_4 }}</p>
+      {% endif %}
+
+      {% if block.settings.closing_line != blank %}
+        <p class="ai-brand-origin-closing-{{ ai_gen_id }}">{{ block.settings.closing_line }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Brand origin",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section title"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show section title",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Title",
+      "default": "Por qué existe Revistem"
+    },
+    {
+      "type": "font_picker",
+      "id": "title_font",
+      "label": "Title font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 12,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "Title size (mobile)",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#999999"
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "label": "Spacing below title",
+      "min": 8,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "title_spacing_mobile",
+      "label": "Spacing below title (mobile)",
+      "min": 8,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Divider"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider",
+      "label": "Show divider line",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "divider_width",
+      "label": "Divider width",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "range",
+      "id": "divider_spacing",
+      "label": "Spacing below divider",
+      "min": 16,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "divider_spacing_mobile",
+      "label": "Spacing below divider (mobile)",
+      "min": 12,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_1",
+      "label": "Paragraph 1",
+      "default": "Revistem nació de una búsqueda personal. Buscaba un suplemento capilar que no se limitara a poner biotina y saw palmetto en una cápsula y llamarlo \"fórmula avanzada\"."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_2",
+      "label": "Paragraph 2",
+      "default": "Quería algo que atacara el problema desde dentro: soporte folicular real, pero también soporte celular, mitocondrial y antioxidante sistémico."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_3",
+      "label": "Paragraph 3 (emphasized)",
+      "default": "Lo que encontré en el mercado era o demasiado superficial o demasiado genérico. Fórmulas con ingredientes interesantes en dosis que no sirven para nada. Marketing construido sobre claims que ninguna etiqueta podía sostener.",
+      "info": "This paragraph has extra spacing above for emphasis"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_4",
+      "label": "Paragraph 4",
+      "default": "Así que decidí formularlo desde cero, con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar."
+    },
+    {
+      "type": "text",
+      "id": "closing_line",
+      "label": "Closing line",
+      "default": "Revistem es el resultado de ese proceso."
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "body_font",
+      "label": "Body font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "body_size",
+      "label": "Body text size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "body_size_mobile",
+      "label": "Body text size (mobile)",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "line_height",
+      "label": "Line height",
+      "min": 1.4,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.8
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "closing_size",
+      "label": "Closing line size",
+      "min": 13,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "closing_size_mobile",
+      "label": "Closing line size (mobile)",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "closing_style",
+      "label": "Closing line style",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "italic",
+          "label": "Italic"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "label": "Content max width",
+      "min": 400,
+      "max": 800,
+      "step": 20,
+      "unit": "px",
+      "default": 640
+    },
+    {
+      "type": "range",
+      "id": "paragraph_spacing",
+      "label": "Paragraph spacing",
+      "min": 16,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "paragraph_spacing_mobile",
+      "label": "Paragraph spacing (mobile)",
+      "min": 12,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "emphasis_spacing",
+      "label": "Extra spacing above paragraph 3",
+      "min": 0,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "emphasis_spacing_mobile",
+      "label": "Extra spacing above paragraph 3 (mobile)",
+      "min": 0,
+      "max": 24,
+      "step": 4,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "closing_spacing",
+      "label": "Spacing above closing line",
+      "min": 24,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "closing_spacing_mobile",
+      "label": "Spacing above closing line (mobile)",
+      "min": 16,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Section padding top",
+      "min": 0,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Section padding bottom",
+      "min": 0,
+      "max": 120,
+      "step": 8,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "label": "Section padding top (mobile)",
+      "min": 0,
+      "max": 80,
+      "step": 8,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "label": "Section padding bottom (mobile)",
+      "min": 0,
+      "max": 80,
+      "step": 8,
+      "unit": "px",
+      "default": 48
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand origin"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
