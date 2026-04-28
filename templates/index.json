@@ -14,6 +14,7 @@
       "blocks": {
         "slide_TnkpPR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/freepik_the-man-on-the-left-is-lo_2872056596_1.jpg",
             "mobile_image": "shopify://shop_images/Banner-Home-1-responsve_f0b6f85a-3b35-4fe5-9dbe-291dbdf8eb17.jpg",
