@@ -104,7 +104,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 10,
             "color_scheme": "inverse",
-            "box_align_mobile": "middle",
+            "box_align_mobile": "bottom",
             "text_alignment_mobile": "center"
           }
         }
