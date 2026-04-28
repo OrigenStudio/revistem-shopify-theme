@@ -446,18 +446,6 @@
         "padding_bottom": 24
       }
     },
-    "rich_text_Mki7TU": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 16
-      }
-    },
     "lumin_hero_Pq7Gre": {
       "type": "lumin-hero",
       "blocks": {
@@ -815,7 +803,6 @@
     "lookbook_mybfjn",
     "announcement_bar_scrolling_gBqNqg",
     "image_with_text_8ADPwa",
-    "rich_text_Mki7TU",
     "lumin_hero_Pq7Gre",
     "1774355846783fd27e",
     "17773681305bdc2b19",
