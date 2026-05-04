@@ -112,7 +112,7 @@
         "text_YwKHfa": {
           "type": "text",
           "settings": {
-            "text": "<p>Llevo años hablando de salud capilar en <a href=\"https://www.youtube.com/@Sinpelopantene\" title=\"https://www.youtube.com/@Sinpelopantene\">YouTube</a>. No como médico —no lo soy— sino como alguien que tuvo un motivo personal muy concreto para entender esto a fondo, y que convirtió ese motivo en una forma de trabajar.</p><p>Eso me dio algo que no se estudia: criterio. Saber distinguir un ingrediente respaldado de uno que está ahí para que la etiqueta quede bien. Entender por qué la dosis importa más que la lista. Reconocer cuándo un suplemento está formulado con rigor y cuándo está formulado para vender.</p>",
+            "text": "<p>Llevo 16 años trabajando en el sector farmacéutico, vendiendo principios activos a laboratorios en España. Sé cómo se fabrican los ingredientes que hay dentro de los suplementos. Sé cuáles tienen respaldo real y cuáles están ahí porque son baratos y quedan bien en una etiqueta.</p><p>En paralelo, llevo años divulgando sobre salud capilar en <a href=\"https://www.youtube.com/@Sinpelopantene/featured\" title=\"https://www.youtube.com/@Sinpelopantene/featured\">YouTube</a>. No como médico, sino como alguien con un motivo personal muy concreto para entender esto a fondo.</p><p><strong>Revistem </strong>nació de cruzar esas dos cosas.</p>",
             "text_style": "body"
           }
         }
@@ -177,11 +177,11 @@
           "type": "ai_gen_block_f58c6ec",
           "settings": {
             "title": "Por qué existe Revistem",
-            "paragraph_1": "Revistem nació de una búsqueda personal. Buscaba un suplemento capilar que no se limitara a poner biotina y saw palmetto en una cápsula y llamarlo 'fórmula avanzada'.",
-            "paragraph_2": "Quería algo que atacara el problema desde dentro: soporte folicular real, pero también soporte celular, mitocondrial y antioxidante sistémico.",
-            "paragraph_3": "Lo que encontré en el mercado era o demasiado superficial o demasiado genérico.",
-            "paragraph_4": "Fórmulas con ingredientes interesantes en dosis que no sirven para nada. Marketing construido sobre claims que ninguna etiqueta podía sostener.",
-            "paragraph_5": "Así que decidí formularlo desde cero, con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar.",
+            "paragraph_1": "En 2020 me hice un trasplante capilar. El procedimiento salió mal: la zona donante quedó dañada de forma irreversible.",
+            "paragraph_2": "Lo que vino después no fue resignación. Fue obsesión. Cientos de estudios, años documentando en YouTube lo que funciona y lo que no, probando casi todo lo que hay en el mercado.",
+            "paragraph_3": "Y con algo que muy poca gente que formula suplementos tiene: conocimiento directo de los ingredientes. No desde el marketing, sino desde dentro de la cadena de fabricación.",
+            "paragraph_4": "Lo que encontré fue decepcionante. Fórmulas con ingredientes interesantes a dosis irrelevantes. Biotina y saw palmetto llamadas \"fórmula avanzada\". Marketing construido sobre claims que ninguna etiqueta puede sostener.",
+            "paragraph_5": "Así que decidí formular desde cero. Con un farmacéutico especializado y con un criterio claro: cada ingrediente tiene que estar por una razón, a una dosis que tenga sentido, y tiene que poder explicarse sin exagerar.",
             "paragraph_6": "Revistem es el resultado de ese proceso.",
             "content_max_width": 900,
             "desktop_offset": 100,
