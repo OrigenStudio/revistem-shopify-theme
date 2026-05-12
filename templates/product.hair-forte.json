@@ -171,7 +171,7 @@
         "shipping_CGrYT3": {
           "type": "shipping",
           "settings": {
-            "ship_days": 5,
+            "ship_days": 2,
             "skip_saturday": true,
             "skip_sunday": true,
             "cut_off_time": 24,
@@ -180,10 +180,10 @@
             "image_ani": "none",
             "text_size": 10,
             "text_style": "uppercase",
-            "text": "Order in (timer) and Get delivery By (date)",
+            "text": "Haz tu pedido en (timer) y recibe tu pedido el  (date)",
             "hours": "h",
             "minutes": "m",
-            "date_locale": "en-US",
+            "date_locale": "ES",
             "ship_bg": "rgba(0,0,0,0)",
             "show_border": false,
             "ship_border": "#f2f2f2",
