@@ -371,6 +371,11 @@
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
+      },
+      "13245967176993778395": {
+        "type": "shopify://apps/zipchat-ai-chatbot/blocks/widget/09531fba-7e12-4949-9b23-92e32b5e5456",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
