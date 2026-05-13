@@ -199,7 +199,7 @@
           "settings": {
             "heading": "Qué es Revistem Hair Forte",
             "icon": "question_mark",
-            "content": "<p><br/><strong>Revistem Hair Forte</strong> es la versión avanzada de nuestra línea capilar. Parte de la misma base de Revistem Hair, con NAC, Saw Palmetto, aminoácidos sulfurados, mijo, zinc, selenio y biotina, y añade un perfil antioxidante y sistémico más completo con resveratrol de alta concentración, astaxantina de alga Haematococcus pluvialis, coenzima Q10, vitamina D y vitamina K. Está formulado para quienes quieren ir un paso más allá dentro de una estrategia integral de salud capilar, especialmente aquellos que ya siguen un protocolo médico activo y buscan el soporte nutricional más completo posible.<br/><br/></p>",
+            "content": "<p><strong>Revistem Hair Forte</strong> es la fórmula capilar más completa de la línea. <br/>Parte de la misma base estructural de Revistem Hair — NAC, Saw Palmetto, aminoácidos sulfurados, mijo, zinc, selenio y biotina — y añade el único eje antioxidante celular de amplio espectro disponible en una fórmula capilar del mercado español.<br/><br/>Tres categorías mecanísticamente distintas de protección antioxidante:<br/></p><p><em>·carotenoide</em> (astaxantina de Haematococcus pluvialis al 5%), ·<em>polifenol </em>(resveratrol de Polygonum cuspidatum al 98%) y <em>quinona </em>(coenzima Q10).</p><p><br/>Más vitamina D y vitamina K, dos activos sistémicos que la mayoría de fórmulas capilares ignoran.<br/><br/>Para quien quiere cubrir todos los ángulos desde el primer bote.</p>",
             "page": "",
             "open_by_default": false,
             "show_product_description": false
@@ -401,8 +401,8 @@
           "settings": {
             "image": "shopify://shop_images/freepik_aply-the-label-of-the-pro_2842316665.png",
             "caption": "REVISTEM HAIR FORTE",
-            "heading": "Para quien ya tiene un protocolo activo",
-            "text": "<p>Si usas finasterida, dutasterida o minoxidil, ya estás actuando sobre la señalización hormonal. Revistem Hair Forte está diseñado para el siguiente nivel: reducir el estrés oxidativo folicular, apoyar la función mitocondrial celular con CoQ10 y cubrir las vitaminas que la mayoría de protocolos capilares ignoran, la D y la K. Todo en una sola toma diaria.<br/><br/></p>",
+            "heading": "Para quien quiere la fórmula más completa",
+            "text": "<p>Si usas finasterida, dutasterida o minoxidil, Revistem Hair Forte <br/>cubre el soporte nutricional que esos tratamientos no aportan: <br/>función folicular, energía celular mitocondrial con CoQ10, y <br/>protección antioxidante sistémica. Todo en tres cápsulas al día.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -465,7 +465,7 @@
             "show_4": true,
             "image_4": "shopify://shop_images/Coenzima_Q10.png",
             "head_4": "<strong>Coenzima Q10</strong>",
-            "text_4": "20 mg por dosis diaria. Soporte antioxidante a nivel mitocondrial, complementando el eje antioxidante completo de la fórmula Forte.",
+            "text_4": "50 mg por dosis diaria. Soporte antioxidante a nivel mitocondrial, complementando el eje antioxidante completo de la fórmula Forte.",
             "show_5": false,
             "head_5": "<strong>Biotina</strong>",
             "text_5": "Contribuye al mantenimiento del cabello en condiciones normales.",
