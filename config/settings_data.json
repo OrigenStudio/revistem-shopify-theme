@@ -211,6 +211,7 @@
     "show_extra_line": true,
     "extra_text": "Free",
     "free_shipping_threshold": 89,
+    "shipping_cost_text": "5,99 €",
     "show_total_save_price": true,
     "total_save_price_text": "Savings",
     "total_save_price_font_size": 13,
