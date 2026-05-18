@@ -616,7 +616,7 @@
             "product": "revistem-hair",
             "product_bg_color": "#ffffff",
             "product_text_color": "#121212",
-            "custom_badge": "NEW",
+            "custom_badge": "",
             "custom_badge_bg_color": "#334FB4"
           }
         },
