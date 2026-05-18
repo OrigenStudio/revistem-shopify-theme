@@ -646,11 +646,11 @@
         "card_color_scheme": "",
         "card_text_alignment": "left",
         "card_border_thickness": 1,
-        "card_border_opacity": 25,
-        "card_corner_radius": 6,
+        "card_border_opacity": 30,
+        "card_corner_radius": 14,
         "columns_desktop": 3,
-        "pt": 36,
-        "pb": 36
+        "pt": 84,
+        "pb": 32
       }
     },
     "collapsible_content_jdrwfj": {
