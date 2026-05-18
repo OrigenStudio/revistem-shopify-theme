@@ -593,6 +593,114 @@
       ],
       "settings": {}
     },
+    "shoppable_videos_wQqieA": {
+      "type": "shoppable-videos",
+      "blocks": {
+        "slide_kFmGCk": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/UGC-VIDEO2-MASTER.mp4",
+            "video_autoplay": true,
+            "product": "revistem-hair-forte",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_dMcwYH": {
+          "type": "slide",
+          "settings": {
+            "video_autoplay": true,
+            "product": "",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_ewxAXn": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/UGC-VIDEO3-MASTER.mp4",
+            "video_autoplay": true,
+            "product": "revistem-hair",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "NEW",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_H8UNKQ": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/UGC-VIDEO1-MASTER.mp4",
+            "video_autoplay": true,
+            "product": "revistem-hair-forte",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_KTne8j": {
+          "type": "slide",
+          "settings": {
+            "video_autoplay": true,
+            "product": "",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "NEW",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_WgdtdC": {
+          "type": "slide",
+          "settings": {
+            "video_autoplay": true,
+            "product": "",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "NEW",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        },
+        "slide_wYQqpQ": {
+          "type": "slide",
+          "settings": {
+            "video_autoplay": true,
+            "product": "",
+            "product_bg_color": "#ffffff",
+            "product_text_color": "#121212",
+            "custom_badge": "NEW",
+            "custom_badge_bg_color": "#334FB4"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kFmGCk",
+        "slide_dMcwYH",
+        "slide_ewxAXn",
+        "slide_H8UNKQ",
+        "slide_KTne8j",
+        "slide_WgdtdC",
+        "slide_wYQqpQ"
+      ],
+      "name": "Shoppable videos",
+      "settings": {
+        "color_scheme": "",
+        "title": "Shoppable Videos",
+        "heading_size": "h1",
+        "card_color_scheme": "",
+        "card_text_alignment": "left",
+        "card_border_thickness": 1,
+        "card_border_opacity": 25,
+        "card_corner_radius": 6,
+        "columns_desktop": 3,
+        "pt": 36,
+        "pb": 36
+      }
+    },
     "collapsible_content_jdrwfj": {
       "type": "collapsible-content",
       "blocks": {
@@ -806,6 +914,7 @@
     "lumin_hero_Pq7Gre",
     "1774355846783fd27e",
     "17773681305bdc2b19",
+    "shoppable_videos_wQqieA",
     "collapsible_content_jdrwfj",
     "before_after_rmYV6L",
     "autoplay_video_pUjczr"
