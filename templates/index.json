@@ -608,17 +608,6 @@
             "custom_badge_bg_color": "#334FB4"
           }
         },
-        "slide_dMcwYH": {
-          "type": "slide",
-          "settings": {
-            "video_autoplay": true,
-            "product": "",
-            "product_bg_color": "#ffffff",
-            "product_text_color": "#121212",
-            "custom_badge": "",
-            "custom_badge_bg_color": "#334FB4"
-          }
-        },
         "slide_ewxAXn": {
           "type": "slide",
           "settings": {
@@ -642,54 +631,17 @@
             "custom_badge": "",
             "custom_badge_bg_color": "#334FB4"
           }
-        },
-        "slide_KTne8j": {
-          "type": "slide",
-          "settings": {
-            "video_autoplay": true,
-            "product": "",
-            "product_bg_color": "#ffffff",
-            "product_text_color": "#121212",
-            "custom_badge": "NEW",
-            "custom_badge_bg_color": "#334FB4"
-          }
-        },
-        "slide_WgdtdC": {
-          "type": "slide",
-          "settings": {
-            "video_autoplay": true,
-            "product": "",
-            "product_bg_color": "#ffffff",
-            "product_text_color": "#121212",
-            "custom_badge": "NEW",
-            "custom_badge_bg_color": "#334FB4"
-          }
-        },
-        "slide_wYQqpQ": {
-          "type": "slide",
-          "settings": {
-            "video_autoplay": true,
-            "product": "",
-            "product_bg_color": "#ffffff",
-            "product_text_color": "#121212",
-            "custom_badge": "NEW",
-            "custom_badge_bg_color": "#334FB4"
-          }
         }
       },
       "block_order": [
         "slide_kFmGCk",
-        "slide_dMcwYH",
         "slide_ewxAXn",
-        "slide_H8UNKQ",
-        "slide_KTne8j",
-        "slide_WgdtdC",
-        "slide_wYQqpQ"
+        "slide_H8UNKQ"
       ],
       "name": "Shoppable videos",
       "settings": {
         "color_scheme": "",
-        "title": "Shoppable Videos",
+        "title": "Testimonios",
         "heading_size": "h1",
         "card_color_scheme": "",
         "card_text_alignment": "left",
