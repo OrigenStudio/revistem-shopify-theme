@@ -360,14 +360,9 @@
         "disabled": false,
         "settings": {}
       },
-      "13245967176993778395": {
-        "type": "shopify://apps/zipchat-ai-chatbot/blocks/widget/09531fba-7e12-4949-9b23-92e32b5e5456",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "button_color": "#000000",
           "secondary_color": "#ffffff",
@@ -378,6 +373,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "13245967176993778395": {
+        "type": "shopify://apps/zipchat-ai-chatbot/blocks/widget/09531fba-7e12-4949-9b23-92e32b5e5456",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
