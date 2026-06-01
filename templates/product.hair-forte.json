@@ -117,7 +117,7 @@
           "settings": {
             "text_style": "uppercase",
             "bar_font_size": 11,
-            "inventory_threshold": 12,
+            "inventory_threshold": 30,
             "show_inventory_bar": true,
             "show_inventory_pill": true,
             "text_soldout": "Desgraciadamente ya no hay stock",
