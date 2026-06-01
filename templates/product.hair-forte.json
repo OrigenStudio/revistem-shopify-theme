@@ -123,7 +123,7 @@
             "text_soldout": "Desgraciadamente ya no hay stock",
             "text_untracked": "Actualmente hay stock",
             "text_low_one": "Date prisa! Solo queda 1 en stock",
-            "text_low_many": "Hurry up! Only [qty] items are in stock.",
+            "text_low_many": "Date prisa! Solo quedan [qty] unidades en stock",
             "text_normal": "",
             "inv_bar_height": 1,
             "inv_bar_radius": 0,
