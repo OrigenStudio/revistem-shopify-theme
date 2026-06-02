@@ -520,5 +520,22 @@
     {% render 'lumin-recently-viewed-drawer' %}
     {% render 'lazy-loading' %}
     {% render 'performance-monitor' %}
+    <script>
+  if (window.location.pathname.includes('revistem-hair-forte')) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var style = document.createElement('style');
+      style.innerHTML = `
+        #appstle_subscription_widget0 .appstle_radio_label {
+          background-color: #f5ede8 !important;
+          border-color: #A0522D !important;
+        }
+        #appstle_subscription_widget0 span.appstle-save-badge {
+          background: #A0522D !important;
+        }
+      `;
+      document.head.appendChild(style);
+    });
+  }
+</script>
   </body>
 </html>
