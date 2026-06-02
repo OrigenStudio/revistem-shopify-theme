@@ -14,6 +14,7 @@
       "blocks": {
         "slide_zj8jbr": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/freepik_match-the-correct-label-o_2872697512_a8f42e9d-511e-4313-8e6b-b6726b926e5f.png",
             "mobile_image": "shopify://shop_images/Banner-Home-2-responsve.jpg",
@@ -78,6 +79,7 @@
         },
         "slide_TnkpPR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/freepik_the-man-on-the-left-is-lo_2872056596_1.jpg",
             "mobile_image": "shopify://shop_images/freepik_aply-the-label-of-the-pro_2842316665.png",
@@ -605,7 +607,7 @@
             "product_bg_color": "#ffffff",
             "product_text_color": "#121212",
             "custom_badge": "",
-            "custom_badge_bg_color": "#334FB4"
+            "custom_badge_bg_color": "#334fb4"
           }
         },
         "slide_ewxAXn": {
@@ -617,7 +619,7 @@
             "product_bg_color": "#ffffff",
             "product_text_color": "#121212",
             "custom_badge": "",
-            "custom_badge_bg_color": "#334FB4"
+            "custom_badge_bg_color": "#334fb4"
           }
         },
         "slide_H8UNKQ": {
@@ -629,7 +631,7 @@
             "product_bg_color": "#ffffff",
             "product_text_color": "#121212",
             "custom_badge": "",
-            "custom_badge_bg_color": "#334FB4"
+            "custom_badge_bg_color": "#334fb4"
           }
         }
       },
