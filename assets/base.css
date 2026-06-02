@@ -3658,14 +3658,13 @@ header-menu>details {
     transform: translateX(100%) scaleX(0)
   }
 }
-/* Widget suscripción - Revistem Hair Forte (color rojizo/terracota) */
-[data-product-id="XXXXXXXXXX"] .appstle_subscriptionWidget .appstle_save_badge,
-[data-product-id="XXXXXXXXXX"] .appstle_subscriptionWidget input[type="radio"]:checked + label {
-  background-color: #C0392B !important;
-  border-color: #C0392B !important;
+/* Widget suscripción - Revistem Hair Forte (terracota) */
+[data-product-id="15766139765061"] .appstle_subscriptionWidget .appstle_save_badge {
+  background-color: #A0522D !important;
+  border-color: #A0522D !important;
+  color: #ffffff !important;
 }
 
-/* Widget suscripción - Revistem Hair (mantener verde) */
-[data-product-id="YYYYYYYYYY"] .appstle_subscriptionWidget .appstle_save_badge {
-  background-color: #2E7D32 !important;
+[data-product-id="15766139765061"] .appstle_subscriptionWidget .appstle_subscription_widget_border {
+  border-color: #A0522D !important;
 }
