@@ -3658,11 +3658,3 @@ header-menu>details {
     transform: translateX(100%) scaleX(0)
   }
 }
-/* Widget suscripción - Revistem Hair Forte (terracota) */
-#appstle_subscription_widget0.WIDGET_TYPE_8 span.appstle-save-badge {
-  background: #A0522D !important;
-}
-
-#appstle_subscription_widget0.WIDGET_TYPE_8 .appstle_subscription_amount_wrapper {
-  border-color: #A0522D !important;
-}
