@@ -3658,3 +3658,12 @@ header-menu>details {
     transform: translateX(100%) scaleX(0)
   }
 }
+#appstle_subscription_widget0.WIDGET_TYPE_8 .appstle_radio_label {
+  background-color: #f5ede8 !important;
+  border-color: #A0522D !important;
+}
+
+#appstle_subscription_widget0.WIDGET_TYPE_8 input[type="radio"]:checked + .appstle_radio_label {
+  background-color: #f0ddd5 !important;
+  border-color: #A0522D !important;
+}
