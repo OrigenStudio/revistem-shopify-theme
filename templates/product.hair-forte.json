@@ -173,6 +173,12 @@
             "margin_bottom": 0
           }
         },
+        "text_benefits_kMT9WR": {
+          "type": "text_benefits",
+          "settings": {
+            "benefits": "<p>✨ <em>Los primeros cambios son perceptibles a partir de las 4-6 semanas. El protocolo completo son 90 días, que es por lo que el pack de 3 meses es el más recomendado<br/></em></p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -294,6 +300,7 @@
         "inventory_4fpVhP",
         "description_kzKRHC",
         "shipping_CGrYT3",
+        "text_benefits_kMT9WR",
         "buy_buttons",
         "collapsible_tab_ptCdTk",
         "collapsible_tab_EBKNVc",
