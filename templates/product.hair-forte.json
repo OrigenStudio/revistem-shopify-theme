@@ -200,6 +200,12 @@
             "lm_main_button_border_color": "#000000"
           }
         },
+        "text_benefits_hTHgwx": {
+          "type": "text_benefits",
+          "settings": {
+            "benefits": "<p><strong>Garantía de 90 días</strong> — <em>Si en 90 días de uso continuado no ves ningún cambio, te devolvemos el dinero sin preguntas.<br/></em></p>"
+          }
+        },
         "collapsible_tab_ptCdTk": {
           "type": "collapsible_tab",
           "settings": {
@@ -216,7 +222,7 @@
           "settings": {
             "heading": "Qué lo hace diferente",
             "icon": "star",
-            "content": "<p><br/><strong>Revistem Hair Forte</strong> amplía la fórmula base con activos orientados específicamente al soporte antioxidante profundo y a la función celular. El resveratrol está presente a 102 mg de extracto de Polygonum cuspidatum estandarizado al 98%, lo que equivale a aproximadamente 100 mg de resveratrol puro por dosis. La astaxantina proviene de oleorresina de alga Haematococcus pluvialis al 5%, aportando 4 mg por dosis, una de las concentraciones más altas disponibles en formulaciones orales. La coenzima Q10 a 20 mg completa el eje antioxidante mitocondrial. Además incorpora vitamina D a 50 µg y vitamina K a 100 µg, dos activos con papel sistémico relevante que no están presentes en la fórmula estándar. El resultado es una fórmula más completa, pensada para un compromiso a largo plazo con la salud capilar desde todos los ángulos posibles.<br/><br/></p>",
+            "content": "<p><em>La diferencia está en lo que nadie más tiene junto:</em></p><p>→ <strong>Resveratrol al 98%</strong> — No el extracto diluido que usan los genéricos. El estándar farmacéutico, a 100 mg por dosis.</p><p>→ <strong>Astaxantina de alga real</strong> — 4 mg de Haematococcus pluvialis al 5%. Una de las concentraciones más altas disponibles en oral.</p><p>→ <strong>CoQ10 a 50 mg</strong> — Energía mitocondrial celular. No está en ningún otro suplemento capilar del mercado español.</p><p><em>Tres mecanismos antioxidantes distintos. En un solo bote.</em><br/><br/></p>",
             "page": "",
             "open_by_default": false,
             "show_product_description": false
@@ -302,6 +308,7 @@
         "shipping_CGrYT3",
         "text_benefits_kMT9WR",
         "buy_buttons",
+        "text_benefits_hTHgwx",
         "collapsible_tab_ptCdTk",
         "collapsible_tab_EBKNVc",
         "collapsible_tab_Adeqcw",
