@@ -603,7 +603,7 @@
           "settings": {
             "image": "shopify://shop_images/Diseno_sin_titulo_3_3ee8062a-642e-47b7-879e-eb2f38e83e0f.png",
             "use_video": false,
-            "main_image_width": 720,
+            "main_image_width": 1000,
             "show_1": false,
             "image_1": "shopify://shop_images/Base_capilar_solida.png",
             "head_1": "<strong>Base capilar sólida</strong>",
