@@ -601,7 +601,7 @@
         "hero_e3Pj8Y": {
           "type": "hero",
           "settings": {
-            "image": "shopify://shop_images/Diseno_sin_titulo_2_be2d6790-ea94-404b-85cf-04a9932628cf.png",
+            "image": "shopify://shop_images/Diseno_sin_titulo_3_3ee8062a-642e-47b7-879e-eb2f38e83e0f.png",
             "use_video": false,
             "main_image_width": 720,
             "show_1": false,
@@ -636,7 +636,7 @@
       "settings": {
         "color_scheme": "",
         "color_scheme_2": "",
-        "title": "Los pilares de la fórmula",
+        "title": "",
         "heading_size": "h1",
         "column_alignment": "center",
         "column_alignment_dt": "center",
