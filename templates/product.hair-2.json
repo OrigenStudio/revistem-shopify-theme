@@ -92,37 +92,6 @@
             "save_shadow_blur": 0
           }
         },
-        "trust_feature_xnRc3U": {
-          "type": "trust-feature",
-          "disabled": true,
-          "settings": {
-            "trust_alignment": "flex-start",
-            "layout_mode": "auto",
-            "hide_icon_1": false,
-            "icon_size_1": 36,
-            "heading_1": "Free Shipping",
-            "heading_size_1": 12,
-            "text_1": "<p>Free worldwide shipping</p>",
-            "text_size_1": 12,
-            "show_background_1": true,
-            "background_1": "#f9f9f9",
-            "border_color_1": "rgba(0,0,0,0)",
-            "border_radius_1": 0,
-            "hide_second_feature": false,
-            "hide_icon_2": false,
-            "icon_size_2": 36,
-            "heading_2": "24/7 Support",
-            "heading_size_2": 12,
-            "text_2": "<p>We're here to help</p>",
-            "text_size_2": 12,
-            "show_background_2": true,
-            "background_2": "#f9f9f9",
-            "border_color_2": "rgba(0,0,0,0)",
-            "border_radius_2": 0,
-            "padding_top": 4,
-            "padding_bottom": 20
-          }
-        },
         "inventory_4fpVhP": {
           "type": "inventory",
           "settings": {
@@ -184,10 +153,23 @@
             "margin_bottom": 0
           }
         },
+        "text_PHpyDR": {
+          "type": "text",
+          "settings": {
+            "text": "✨ <em>Los primeros cambios son perceptibles a partir de las 4-6 semanas. El protocolo completo son 90 días, que es por lo que el pack de 3 meses es el más recomendado</em>",
+            "text_style": "body",
+            "text_alignment": "left",
+            "text_size_dt": 16,
+            "use_custom_color": false,
+            "text_color": "#000000",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true,
             "skip_cart": false,
             "button_padding_top": 20,
@@ -203,6 +185,19 @@
             "lm_main_button_gr_hover": "",
             "lm_main_button_border_width": 0,
             "lm_main_button_border_color": "#000000"
+          }
+        },
+        "text_tie78N": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Garantía de 90 días</strong> — <em>Si en 90 días de uso continuado no ves ningún cambio, te devolvemos el dinero sin preguntas.</em>",
+            "text_style": "body",
+            "text_alignment": "left",
+            "text_size_dt": 16,
+            "use_custom_color": false,
+            "text_color": "#000000",
+            "padding_top": 0,
+            "padding_bottom": 0
           }
         },
         "collapsible_tab_ptCdTk": {
@@ -301,11 +296,12 @@
         "review_mMj4kD",
         "title_Fnnnm3",
         "price",
-        "trust_feature_xnRc3U",
         "inventory_4fpVhP",
         "description_kzKRHC",
         "shipping_CGrYT3",
+        "text_PHpyDR",
         "buy_buttons",
+        "text_tie78N",
         "collapsible_tab_ptCdTk",
         "collapsible_tab_EBKNVc",
         "collapsible_tab_Adeqcw",
