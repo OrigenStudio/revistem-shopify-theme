@@ -304,7 +304,7 @@
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "scheme-36a94306-aa7e-4414-831f-3c6ab711150c",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
