@@ -595,43 +595,56 @@
       ],
       "settings": {}
     },
-    "lumin_hero_Rjj9wT": {
-      "type": "lumin-hero",
+    "image_with_text_TzJwV4": {
+      "type": "image-with-text",
       "blocks": {
-        "hero_e3Pj8Y": {
-          "type": "hero",
+        "heading_LB6484": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/Diseno_sin_titulo_3_3ee8062a-642e-47b7-879e-eb2f38e83e0f.png",
-            "use_video": false,
-            "main_image_width": 1000,
-            "show_1": false,
-            "image_1": "shopify://shop_images/Base_capilar_solida.png",
-            "head_1": "<strong>Base capilar sólida</strong>",
-            "text_1": "Aminoácidos, minerales y activos vegetales seleccionados para dar estructura y coherencia a la fórmula.",
-            "show_2": false,
-            "image_2": "shopify://shop_images/Soporte_antioxidante.png",
-            "head_2": "<strong>Soporte antioxidante</strong>",
-            "text_2": "La fórmula incorpora compuestos orientados a reforzar el entorno oxidativo y el equilibrio celular.",
-            "show_3": false,
-            "image_3": "shopify://shop_images/Dosis_con_criterio.png",
-            "head_3": "<strong>Dosis con criterio</strong>",
-            "text_3": "Cada ingrediente está incluido por su función dentro del conjunto, no para inflar la etiqueta.",
-            "show_4": false,
-            "image_4": "shopify://shop_images/Pensado_para_complementar.png",
-            "head_4": "<strong>Pensado para complementar</strong>",
-            "text_4": "Revistem acompaña una estrategia capilar seria desde un enfoque nutricional bien planteado.",
-            "show_5": false,
-            "head_5": "Heading",
-            "text_5": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines.",
-            "show_6": false,
-            "head_6": "Heading",
-            "text_6": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines."
+            "heading": "Borja Álvarez | <em>Fundador de Revistem</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_y6e4Me": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Llevo <strong>16 años</strong> trabajando en el sector farmacéutico, vendiendo principios activos a laboratorios en España. Sé cómo se fabrican los ingredientes que hay dentro de los suplementos. Sé cuáles tienen respaldo real y cuáles están ahí porque son baratos y quedan bien en una etiqueta.</p><p>En paralelo, llevo años divulgando sobre salud capilar en <a href=\"https://www.youtube.com/@Sinpelopantene/featured\" title=\"https://www.youtube.com/@Sinpelopantene/featured\">YouTube</a>. No como médico, sino como alguien con un motivo personal muy concreto para entender esto a fondo.</p><p><strong>Revistem </strong>nació de cruzar esas dos cosas.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_jYrEEX": {
+          "type": "button",
+          "settings": {
+            "button_label": "ver productos",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "hero_e3Pj8Y"
+        "heading_LB6484",
+        "text_y6e4Me",
+        "button_jYrEEX"
       ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Criterio_Capilar_SKOOL.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "lumin_hero_Rjj9wT": {
+      "type": "lumin-hero",
       "name": "Lumin Hero",
       "settings": {
         "color_scheme": "",
@@ -923,6 +936,7 @@
     "lumin_hero_Pq7Gre",
     "1774355846783fd27e",
     "17773681305bdc2b19",
+    "image_with_text_TzJwV4",
     "lumin_hero_Rjj9wT",
     "shoppable_videos_wQqieA",
     "collapsible_content_jdrwfj",
