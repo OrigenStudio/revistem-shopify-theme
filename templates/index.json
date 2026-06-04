@@ -189,7 +189,7 @@
             "mobile_item_spacing": 40,
             "show_dividers": true,
             "divider_color": "#000000",
-            "divider_opacity": 10,
+            "divider_opacity": 30,
             "divider_height": 60,
             "icon_size": 32,
             "mobile_icon_size": 28,
@@ -275,7 +275,7 @@
         "text_qgDWeE": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Revistem nace de una pregunta concreta: ¿por qué la mayoría de suplementos capilares ignoran la biología real del folículo? Cada fórmula está construida desde la evidencia, con ingredientes a dosis relevantes y compatibilidad real con los tratamientos médicos habituales para la alopecia androgenética.<br/><br/></p>",
+            "text": "<p><br/>Revistem nace de una pregunta concreta: <strong>¿por qué la mayoría de suplementos capilares ignoran la biología real del folículo? </strong>Cada fórmula está construida desde la evidencia, con ingredientes a dosis relevantes y compatibilidad real con los tratamientos médicos habituales para la alopecia androgenética.<br/><br/></p>",
             "text_style": "subtitle"
           }
         },
