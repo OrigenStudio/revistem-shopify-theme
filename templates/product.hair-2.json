@@ -20,6 +20,12 @@
         "padding_bottom": 52
       }
     },
+    "1780942062b8d7faf0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -1089,21 +1095,6 @@
       ],
       "name": "Trust badges",
       "settings": {}
-    },
-    "1780942062b8d7faf0": {
-      "type": "apps",
-      "blocks": {
-        "recharge_subscriptions_subscription_widget_v2_YHVedB": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "recharge_subscriptions_subscription_widget_v2_YHVedB"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
