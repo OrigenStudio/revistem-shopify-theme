@@ -334,7 +334,7 @@
         "thumbnail_size": 54,
         "thumbnail_radius": 0,
         "media_position": "left",
-        "image_zoom": "hover",
+        "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_looping": true,
         "variant_image_filtering": "none",
