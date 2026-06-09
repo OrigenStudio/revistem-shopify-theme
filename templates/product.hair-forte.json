@@ -326,7 +326,7 @@
         "color_scheme": "background-1",
         "block_padding": 1.5,
         "media_size": "large",
-        "constrain_to_viewport": false,
+        "constrain_to_viewport": true,
         "media_fit": "cover",
         "gallery_layout": "vertical_left",
         "hide_slider_buttons": false,
