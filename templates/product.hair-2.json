@@ -956,10 +956,41 @@
             "head_6": "Heading",
             "text_6": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines."
           }
+        },
+        "hero_BXCfnB": {
+          "type": "hero",
+          "settings": {
+            "image": "shopify://shop_images/La_diferencia_esta_en_la_formula_4.png",
+            "use_video": false,
+            "main_image_width": 1000,
+            "show_1": false,
+            "image_1": "shopify://shop_images/Saw_Palmetto.png",
+            "head_1": "<strong>Saw Palmetto</strong>",
+            "text_1": "320 mg · 45% ácidos grasos activos. El extracto vegetal más estudiado en salud capilar masculina, estandarizado para garantizar la fracción activa real.",
+            "show_2": false,
+            "image_2": "shopify://shop_images/NAC.png",
+            "head_2": "<strong>NAC</strong>",
+            "text_2": "600 mg de N-Acetil-L-Cisteína por dosis diaria. Precursor del glutatión y fuente de cisteína para la síntesis de queratina. El activo estructural central de la fórmula.",
+            "show_3": false,
+            "image_3": "shopify://shop_images/L-Cistina.png",
+            "head_3": "<strong>L-Cistina</strong>",
+            "text_3": "150 mg del aminoácido sulfurado mayoritario en la estructura de la queratina. Junto con la L-Metionina forma el eje aminoacídico de la fórmula.",
+            "show_4": false,
+            "image_4": "shopify://shop_images/Biotina.png",
+            "head_4": "<strong>Vitamina E</strong>",
+            "text_4": "150 mg α-TE por dosis, un 1250% de la referencia nutricional diaria. Antioxidante liposoluble para la protección del entorno folicular frente al daño oxidativo.",
+            "show_5": false,
+            "head_5": "Heading",
+            "text_5": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines.",
+            "show_6": false,
+            "head_6": "Heading",
+            "text_6": "Some descriptive text for your collection. For better alignment, it is better to use text in several lines."
+          }
         }
       },
       "block_order": [
-        "hero_6fjBV8"
+        "hero_6fjBV8",
+        "hero_BXCfnB"
       ],
       "name": "Lumin Hero",
       "settings": {
