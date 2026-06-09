@@ -643,6 +643,45 @@
         "padding_bottom": 24
       }
     },
+    "image_with_text_djTgB8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WxLgzV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Compatible con tu tratamiento médico",
+            "heading_size": "h2"
+          }
+        },
+        "text_P8PU4T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Revistem está formulado para complementar cualquier protocolo de salud capilar activo. Sin interferencias con otros suplementos, sin contraindicaciones conocidas, apto para uso prolongado.</p><p><em>Revistem no sustituye ningún tratamiento médico ni ninguna dieta equilibrada. Si sigues un tratamiento prescrito por un profesional sanitario, consúltale antes de incorporar cualquier suplemento.</em></p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WxLgzV",
+        "text_P8PU4T"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_9_jun_2026_15_21_35.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
     "lumin_hero_Rjj9wT": {
       "type": "lumin-hero",
       "name": "Lumin Hero",
@@ -937,6 +976,7 @@
     "1774355846783fd27e",
     "17773681305bdc2b19",
     "image_with_text_TzJwV4",
+    "image_with_text_djTgB8",
     "lumin_hero_Rjj9wT",
     "shoppable_videos_wQqieA",
     "collapsible_content_jdrwfj",
