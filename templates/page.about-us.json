@@ -431,6 +431,7 @@
         "text_LAbVmY",
         "button_8w83gA"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
