@@ -181,7 +181,6 @@
         },
         "variant_picker_B88BN9": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button",
             "label_style": "body",
