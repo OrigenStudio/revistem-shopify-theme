@@ -374,11 +374,6 @@
           "greeting_message": ""
         }
       },
-      "13245967176993778395": {
-        "type": "shopify://apps/zipchat-ai-chatbot/blocks/widget/09531fba-7e12-4949-9b23-92e32b5e5456",
-        "disabled": true,
-        "settings": {}
-      },
       "3138269044488530766": {
         "type": "shopify://apps/uppromote-affiliate/blocks/core-script/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": false,
@@ -407,24 +402,8 @@
         "disabled": true,
         "settings": {}
       },
-      "17151115064775110295": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": false,
-        "settings": {
-          "color_brand": "#1773B0",
-          "contrast_color": "#FFFFFF",
-          "color_brand_secondary": "#1773B0",
-          "corners": "8px",
-          "app_background": "#f7f7f7",
-          "app_container": 1200,
-          "app_vertical_padding": 32,
-          "images_aspect_ratio": "1",
-          "cards_background": "#FFFFFF",
-          "cards_border_color": "rgba(0,0,0,0)"
-        }
-      },
-      "16798170927650018749": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/storefront-experiences/371eed76-0b44-4869-9813-730372ea378e",
+      "2724325275511621162": {
+        "type": "shopify://apps/kaching-subscriptions/blocks/app-embed-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
         "disabled": false,
         "settings": {}
       }
