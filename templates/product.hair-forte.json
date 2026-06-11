@@ -12,6 +12,25 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "variant_picker_B88BN9": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "label_style": "body",
+            "font_size": 14,
+            "font_style": "normal",
+            "swatch_type": "color",
+            "swatch_shape": "circle",
+            "swatch_size": 2.8,
+            "swatch_image_height": "square",
+            "swatch_image_custom_radius_value": 2,
+            "size_trigger": "",
+            "chart_id": "Size Chart",
+            "size_page": "",
+            "size_icon": "hanger",
+            "spaced_size": false
+          }
+        },
         "judge_me_reviews_preview_badge_4RGF7L": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -297,6 +316,7 @@
         }
       },
       "block_order": [
+        "variant_picker_B88BN9",
         "judge_me_reviews_preview_badge_4RGF7L",
         "breadcrumbs_tr4UFi",
         "review_mMj4kD",
